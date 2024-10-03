@@ -35,11 +35,11 @@ export const mainFooter = {
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
   text: "The leading credit solution provider in Vietnam.",
   address:
-    "14-15A, 7th Floor, Charmvit Tower, 117 Tran Duy Hung, Cau Giay, Hanoi, Vietnam",
+    "12th Floor, Diamond Flower Tower, 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
   address3:
-    "14-15A, 7th Floor, Charmvit Tower, 117 Tran Duy Hung, Cau Giay, Hanoi, Vietnam",
+    "12th Floor, Diamond Flower Tower, 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
   address2:
-    "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
+    "12th Floor, Diamond Flower Tower, 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
   phone: "0886 019 189",
   phone2: "+84 886 019 189",
   email: "support@nwcic.vn",
@@ -93,7 +93,7 @@ export const mainFooter = {
     {
       id: 5,
       href: "/faqs",
-      title: "Terms of Use",
+      title: "FAQ",
     },
   ],
   ...footer,

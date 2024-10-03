@@ -22,7 +22,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <Layout pageTitle="Home 01">
+    <Layout pageTitle="Home">
       <Style />
       <HeaderOne />
       <MobileMenu />

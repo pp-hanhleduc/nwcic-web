@@ -78,7 +78,7 @@ export const contactInfoTwo = [
   {
     id: 1,
     icon: "fa fa-map-marker-alt",
-    text: "Charmvit Tower, 117 Tran Duy Hung, Hanoi, Vietnam",
+    text: "Diamond Flower Tower,\n 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
   },
   {
     id: 2,

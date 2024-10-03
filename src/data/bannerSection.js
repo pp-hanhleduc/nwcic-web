@@ -22,8 +22,8 @@ export const bannerTwo = [
   {
     id: 4,
     bg: "1.jpg",
-    subtitle: "Welcome to New World CIC",
-    title: "Credit Data \nYou Can Trust",
+    subtitle: "Get your FREE",
+    title: "New World \nCredit Score",
   },
 ];
 

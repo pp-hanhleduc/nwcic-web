@@ -53,6 +53,10 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+          ></link>
+          <link
             href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet"
           />
@@ -68,6 +72,18 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Shadows+Into+Light&display=swap"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap"
+            rel="stylesheet"
+          ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap"
+            rel="stylesheet"
+          ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
         <body>
           <Main />

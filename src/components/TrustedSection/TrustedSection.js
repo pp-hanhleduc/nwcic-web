@@ -23,7 +23,7 @@ const TrustedSection = () => {
                       <div className="count">
                         <span>0{id}</span>
                       </div>
-                      <h5>{title}</h5>
+                      <h5>{title.toUpperCase()}</h5>
                       <div className="sub-text">{subtitle}</div>
                     </div>
                   ))}

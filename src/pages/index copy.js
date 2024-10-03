@@ -7,7 +7,7 @@ import MainFooterDemo from "@/components/MainFooter/MainFooterDemo";
 import Style from "@/components/Reuseable/Style";
 import React from "react";
 
-const Home = () => {
+const HomeOld = () => {
   return (
     <Layout pageTitle="Home 01">
       <Style />
@@ -20,4 +20,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeOld;

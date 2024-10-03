@@ -3,18 +3,18 @@ import bg from "@/images/background/image-1.jpg";
 const funFacts = [
   {
     id: 1,
-    title: "Employees",
+    title: "Team Members",
     count: 26,
   },
   {
     id: 2,
-    title: "Established Year",
-    count: 2022,
+    title: "Working Hours",
+    count: 8000,
   },
   {
     id: 3,
-    title: "Experts",
-    count: 8,
+    title: "Months",
+    count: 25,
   },
 ];
 

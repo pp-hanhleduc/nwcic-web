@@ -75,6 +75,30 @@ export const serviceSectionThree = [
     href: "/services",
     title: "Industry \n Reports ",
   },
+  {
+    id: 7,
+    icon: "flaticon-responsive",
+    href: "/services",
+    title: "Risk Assessment\n Reports ",
+  },
+  {
+    id: 8,
+    icon: "flaticon-digital-marketing",
+    href: "/services",
+    title: "Portfolio \nMonitoring ",
+  },
+  {
+    id: 9,
+    icon: "flaticon-computer",
+    href: "/services",
+    title: "Identity\n Verification",
+  },
+  {
+    id: 10,
+    icon: "flaticon-ui",
+    href: "/services",
+    title: "Compliance \n Solutions",
+  },
 ];
 
 export const servicesSectionOne = {
