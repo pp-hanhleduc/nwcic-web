@@ -86,7 +86,7 @@ export const mainFooter = {
     },
     {
       id: 4,
-      href: "/blog",
+      href: "/blog-grid",
       title: "Tin tức",
     },
     {

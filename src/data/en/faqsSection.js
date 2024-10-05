@@ -36,7 +36,7 @@ const faqs = [
   },
 ];
 
-export const faqsSection = [
+export const faqsSectionEn = [
   {
     id: 1,
     faqs,

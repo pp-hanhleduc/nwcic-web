@@ -10,7 +10,12 @@ const Layout = ({
   preloader,
   mainClass,
   preloaderClass,
+  lan = "vi",
 }) => {
+  const mytitle =
+    lan === "vi"
+      ? "New World CIC - Nhà cung cấp dịch vụ thông tín tín dụng hàng đầu Việt Nam"
+      : "New World CIC - The leading credit solution provider in Vietnam";
   const [loading, setLoading] = useState(true);
   const { scrollTop } = useScroll(100);
 
@@ -27,8 +32,7 @@ const Layout = ({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-          New World CIC - The leading credit solution provider in Vietnam |{" "}
-          {pageTitle}
+          {mytitle} | {pageTitle}
         </title>
       </Head>
       <Preloader className={preloaderClass} loading={loading} bg={preloader} />

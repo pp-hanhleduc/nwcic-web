@@ -63,7 +63,7 @@ export const contactSection = {
   ],
 };
 
-export const contactSectionTwo = {
+export const contactSectionTwoEn = {
   title: "Write us any message",
   text: "Feel free to send us your request.",
   socials: [
@@ -74,7 +74,7 @@ export const contactSectionTwo = {
   ],
 };
 
-export const contactInfoTwo = [
+export const contactInfoTwoEn = [
   {
     id: 1,
     icon: "fa fa-map-marker-alt",

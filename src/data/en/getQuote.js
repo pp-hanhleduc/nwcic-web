@@ -64,7 +64,7 @@ export const getQuoteTwo = {
   ],
 };
 
-export const getQuoteThree = {
+export const getQuoteThreeEn = {
   title: "Still stuck ask directly",
   inputs: [
     {

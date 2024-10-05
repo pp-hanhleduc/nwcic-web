@@ -22,12 +22,12 @@ import React from "react";
 import { useRouter } from "next/router";
 const Home = () => {
   const { locale } = useRouter();
-  console.log("LOCALE ---", locale);
+  const title = locale === "vi" ? "Trang chủ" : "Home";
   return (
-    <Layout pageTitle="Home">
+    <Layout lan={locale} pageTitle={title}>
       <Style />
       <HeaderOne lan={locale} />
-      <MobileMenu />
+      <MobileMenu lan={locale} />
       <SearchPopup />
       <BannerOne lan={locale} />
       <ServicesSectionOne lan={locale} />

@@ -1,4 +1,5 @@
 import { faqsSection } from "@/data/faqsSection";
+import { faqsSectionEn } from "@/data/en/faqsSection";
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 
@@ -39,13 +40,15 @@ const Faqs = ({ allFaqs = {} }) => {
   );
 };
 
-const FaqsSection = () => {
+const FaqsSection = ({ lan = "vi" }) => {
+  const myFaqs = lan === "vi" ? faqsSection : faqsSectionEn;
+
   return (
     <section className="faqs-section">
       <div className="auto-container">
         <Row className="clearfix">
-          {faqsSection.map((allFaqs) => (
-            <Faqs key={allFaqs.id} allFaqs={allFaqs} />
+          {myFaqs.map((faqs) => (
+            <Faqs key={faqs.id} allFaqs={faqs} />
           ))}
         </Row>
       </div>

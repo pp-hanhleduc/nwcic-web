@@ -1,10 +1,14 @@
 import { contactSectionTwo } from "@/data/contactSection";
+import { contactSectionTwoEn } from "@/data/en/contactSection";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-const { title, text, socials } = contactSectionTwo;
-
-const ContactSectionTwo = () => {
+const ContactSectionTwo = ({ lan = "vi" }) => {
+  const { title, text, socials } =
+    lan === "vi" ? contactSectionTwo : contactSectionTwoEn;
+  const name = lan === "vi" ? "Họ và tên" : "Your Name";
+  const content = lan === "vi" ? "Nội dung" : "Content";
+  const buttonText = lan === "vi" ? "Gửi yêu cầu" : "Send message";
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -42,7 +46,7 @@ const ContactSectionTwo = () => {
                         <input
                           type="text"
                           name="username"
-                          placeholder="Your Name"
+                          placeholder={name}
                           required
                         />
                       </div>
@@ -52,7 +56,7 @@ const ContactSectionTwo = () => {
                         <input
                           type="email"
                           name="email"
-                          placeholder="Email Address"
+                          placeholder="Email"
                           required
                         />
                       </div>
@@ -61,7 +65,7 @@ const ContactSectionTwo = () => {
                       <div className="field-inner">
                         <textarea
                           name="message"
-                          placeholder="Write Message"
+                          placeholder={content}
                           required
                         ></textarea>
                       </div>
@@ -69,7 +73,7 @@ const ContactSectionTwo = () => {
                     <Col lg={12} md={12} sm={12} className="form-group">
                       <button className="theme-btn btn-style-one">
                         <i className="btn-curve"></i>
-                        <span className="btn-title">Send message</span>
+                        <span className="btn-title">{buttonText}</span>
                       </button>
                     </Col>
                   </Row>

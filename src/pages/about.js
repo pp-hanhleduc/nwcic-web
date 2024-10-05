@@ -21,7 +21,7 @@ const About = () => {
   const { locale } = useRouter();
   const title = locale === "vi" ? "Liên hệ" : "About Us";
   return (
-    <Layout pageTitle="About Us">
+    <Layout pageTitle={title}>
       <Style />
       <HeaderOne lan={locale} />
       <MobileMenu lan={locale} />

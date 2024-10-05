@@ -64,8 +64,8 @@ export const contactSection = {
 };
 
 export const contactSectionTwo = {
-  title: "Write us any message",
-  text: "Feel free to send us your request.",
+  title: "Liên hệ với chúng tôi",
+  text: "Gửi yêu cầu của bạn ở đây.",
   socials: [
     "fab fa-twitter",
     "fab fa-facebook",

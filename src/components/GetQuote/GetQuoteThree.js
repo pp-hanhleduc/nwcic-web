@@ -1,11 +1,14 @@
 import { getQuoteThree } from "@/data/getQuote";
+import { getQuoteThreeEn } from "@/data/en/getQuote";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-const { title, inputs } = getQuoteThree;
-
-const GetQuoteThree = () => {
+const GetQuoteThree = ({ lan = "vi" }) => {
+  const { title, inputs } = lan === "vi" ? getQuoteThree : getQuoteThreeEn;
+  const strError =
+    lan === "vi" ? "Thông tin bắt buộc phải nhập" : "This Field Is Required.";
+  const buttonText = lan === "vi" ? "Gửi yêu cầu" : "Send message.";
   const {
     register,
     handleSubmit,

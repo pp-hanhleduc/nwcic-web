@@ -65,31 +65,32 @@ export const getQuoteTwo = {
 };
 
 export const getQuoteThree = {
-  title: "Still stuck ask directly",
+  title: "Liên hệ ngay",
   inputs: [
     {
       type: "text",
       name: "username",
-      placeholder: "Your Name",
+      placeholder: "Họ và tên",
     },
     {
       type: "email",
       name: "email",
-      placeholder: "Email Address",
+      placeholder: "Email",
     },
     {
       type: "text",
       name: "phone",
-      placeholder: "Phone Number",
+      placeholder: "Điện thoại",
     },
     {
       type: "text",
       name: "subject",
-      placeholder: "Subject",
+      placeholder: "Tiêu đề",
     },
+
     {
       name: "message",
-      placeholder: "Write Message",
+      placeholder: "Nội dung",
     },
   ],
 };
