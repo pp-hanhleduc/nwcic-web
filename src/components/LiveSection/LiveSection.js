@@ -1,14 +1,15 @@
 import liveSection from "@/data/liveSection";
+import liveSectionEn from "@/data/en/liveSection";
 import Link from "next/link";
 import React, { useState } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 import VideoModal from "../VideoModal/VideoModal";
 
-const { secTitle, bg, videoId, title } = liveSection;
-
-const LiveSection = ({ className = "" }) => {
+const LiveSection = ({ className = "", lan = "vi" }) => {
   const [isOpen, setOpen] = useState(false);
-
+  const { secTitle, bg, videoId, title } =
+    lan === "vi" ? liveSection : liveSectionEn;
+  const buttonText = lan === "vi" ? "Xem thêm" : "Read more";
   return (
     <>
       <section className={`live-section ${className}`}>
@@ -41,7 +42,7 @@ const LiveSection = ({ className = "" }) => {
                     </h3>
                   </div>
                   <div className="more-link">
-                    <Link href="/about">Read More</Link>
+                    <Link href="/about">{buttonText}</Link>
                   </div>
                 </div>
               </div>
@@ -49,7 +50,6 @@ const LiveSection = ({ className = "" }) => {
           </div>
         </div>
       </section>
-      <VideoModal isOpen={isOpen} setOpen={setOpen} id={videoId} />
     </>
   );
 };

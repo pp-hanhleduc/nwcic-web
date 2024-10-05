@@ -1,26 +1,26 @@
 import image from "@/images/resource/featured-image-5.jpg";
 
 const trustedSection = {
-  title: "We’re Committed To Deliver High Quality Solutions.",
-  title2: "Unmatched Accuracy and Insightful Analysis",
+  title: "Chứng tôi cam kết các giải pháp tín dụng tốí ưu nhất.",
+  title2: "Phân tích chuyên sâu & Chính xác tuyệt đối",
   image,
-  text: "The greatest strength of New World CIC is its ability to deliver highly accurate and insightful credit data, empowering clients to make well-informed financial decisions.",
+  text: "Điểm mạnh lớn nhất của New World CIC là khả năng cung cấp dữ liệu tín dụng có độ chính xác cao và phân tích chuyên sâu, giúp khách hàng đưa ra quyết định tài chính sáng suốt nhất.",
   textList: [
-    "Extensive Credit Data Coverage.",
-    "Advanced Risk Assessment Tools.",
-    "Customizable Reports.",
-    "Real-Time Credit Monitoring.",
+    "Dữ liệu Tín dụng Chính xác.",
+    "Công cụ Đánh giá Rủi ro Chuyên biệt.",
+    "Báo cáo Tín dụng tùy chỉnh.",
+    "Giám sát Tín dụng theo Thời gian thực.",
   ],
   features: [
     {
       id: 1,
-      title: "Comprehensive Data Collection and Analysis",
-      subtitle: "core features",
+      title: "Thu thập & Phân tích Dữ liệu Tín dụng chuyên sâu",
+      subtitle: "Giá trị Cốt lõi",
     },
     {
       id: 2,
-      title: "Data Security and Compliance",
-      subtitle: "core features",
+      title: "An toàn Dữ liệu & Tuân thủ quy định ",
+      subtitle: "Giá trị Cốt lõi",
     },
   ],
 };

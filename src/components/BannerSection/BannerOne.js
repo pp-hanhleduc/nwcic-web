@@ -1,4 +1,6 @@
 import { bannerOne } from "@/data/bannerSection";
+import { bannerOneEn } from "@/data/en/bannerSection";
+
 import dynamic from "next/dynamic";
 import React, { useRef } from "react";
 import SlideItemOne from "./SlideItemOne";
@@ -23,9 +25,11 @@ const settings = {
   autoplayButtonOutput: false,
 };
 
-const { dayRange, timeRange, socials, banners } = bannerOne;
+const BannerOne = ({ lan = "vi" }) => {
+  console.log("ngon ngu ---- ", lan);
+  const { dayRange, timeRange, socials, banners } =
+    lan === "vi" ? bannerOne : bannerOneEn;
 
-const BannerOne = () => {
   const listRef = useRef(null);
 
   return (
@@ -58,7 +62,12 @@ const BannerOne = () => {
       <div className="banner-carousel">
         <TinySlider options={settings} ref={listRef}>
           {banners.map((slide) => (
-            <SlideItemOne key={slide.id} slide={slide} ref={listRef} />
+            <SlideItemOne
+              lan={lan}
+              key={slide.id}
+              slide={slide}
+              ref={listRef}
+            />
           ))}
         </TinySlider>
         <div className="tns-controls">

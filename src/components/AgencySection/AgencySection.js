@@ -1,11 +1,12 @@
 import agencySection from "@/data/agencySection";
+import agencySectionEn from "@/data/en/agencySection";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { title, tabBtns, tabContents, text, image, textList } = agencySection;
-
-const AgencySection = () => {
+const AgencySection = ({ lan = "vi" }) => {
+  const { title, tabBtns, tabContents, text, image, textList } =
+    lan === "vi" ? agencySection : agencySectionEn;
   const [current, setCurrent] = useState("tab-1");
 
   return (

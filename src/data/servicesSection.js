@@ -2,26 +2,26 @@ const services = [
   {
     id: 1,
     icon: "flaticon-vector",
-    title: "Individuals",
-    text: "Products designed to help individuals manage their personal credit profiles, monitor credit scores, and receive alerts on credit changes.",
+    title: "Cá nhân",
+    text: "Các sản phẩm được thiết kế để giúp cá nhân quản lý hồ sơ tín dụng cá nhân, theo dõi điểm tín dụng và nhận cảnh báo về những thay đổi về tín dụng.",
   },
   {
     id: 2,
     icon: "flaticon-digital",
-    title: "Small & Medium \n Enterprises",
-    text: "Products to support SMEs in assessing the creditworthiness of partners, clients, and suppliers.",
+    title: "Doanh nghiệp \n Vừa và Nhỏ",
+    text: "Các sản phẩm hỗ trợ các doanh nghiệp vừa và nhỏ đánh giá mức độ tín nhiệm của các đối tác, khách hàng và nhà cung cấp.",
   },
   {
     id: 3,
     icon: "flaticon-instant-camera",
-    title: "Large\n Enterprises",
-    text: "Comprehensive credit solutions that provide detailed insights into market trends, competitor analysis.",
+    title: "Doanh nghiệp lớn",
+    text: "Giải pháp tín dụng toàn diện, cung cấp thông tin chi tiết về xu hướng thị trường, phân tích đối thủ cạnh tranh.",
   },
   {
     id: 4,
     icon: "flaticon-monitor",
-    title: "Tailored\nSolutions",
-    text: "Customized credit information solutions designed to meet the specific needs of our clients.",
+    title: "Giải pháp \n Theo yêu cầu",
+    text: "Các giải pháp thông tin tín dụng tùy chỉnh được thiết kế để đáp ứng nhu cầu cụ thể của khách hàng.",
   },
 ];
 
@@ -31,8 +31,8 @@ const servicesSection = {
   services,
 };
 
-export const servicesSectionThree = {
-  title: "What we’re offering",
+export const servicesSectionThree1 = {
+  title: "Các Giải pháp của chúng tôi",
   services,
 };
 
@@ -43,67 +43,67 @@ export const serviceSectionThree = [
     id: 1,
     icon: "flaticon-responsive",
     href: "/services",
-    title: "Credit\n Reports",
+    title: "Báo cáo \n Tín dụng",
   },
   {
     id: 2,
     icon: "flaticon-computer",
     href: "/services",
-    title: "Credit\n Scores",
+    title: "Chấm điểm\n Tín dụng",
   },
   {
     id: 3,
     icon: "flaticon-digital-marketing",
     href: "/services",
-    title: "Credit\n Monitoring",
+    title: "Giám sát\n Tín dụng",
   },
   {
     id: 4,
     icon: "flaticon-development",
     href: "/services",
-    title: "Fraud Detection \nServices",
+    title: "Dịch vụ \nPhát hiện Gian lận",
   },
   {
     id: 5,
     icon: "flaticon-app-development",
     href: "/services",
-    title: "Debt Collection\n Data",
+    title: "Thu thập\n Dữ liệu Nợ",
   },
   {
     id: 6,
     icon: "flaticon-ui",
     href: "/services",
-    title: "Industry \n Reports ",
+    title: "Báo cáo \n Chuyên ngành ",
   },
   {
     id: 7,
     icon: "flaticon-responsive",
     href: "/services",
-    title: "Risk Assessment\n Reports ",
+    title: "Báo cáo\n Đánh giá Rủi ro ",
   },
   {
     id: 8,
     icon: "flaticon-digital-marketing",
     href: "/services",
-    title: "Portfolio \nMonitoring ",
+    title: "Giám sát \n Hồ sơ ",
   },
   {
     id: 9,
     icon: "flaticon-computer",
     href: "/services",
-    title: "Identity\n Verification",
+    title: "Xác minh \n Danh tính",
   },
   {
     id: 10,
     icon: "flaticon-ui",
     href: "/services",
-    title: "Compliance \n Solutions",
+    title: "Giải pháp \n Tuân thủ",
   },
 ];
 
 export const servicesSectionOne = {
-  title: "We Shape the Perfect\n Credit Solutions",
-  text: "We are committed to providing our customers with exceptional services.",
+  title: "Giải pháp \n Linh hoạt \n Đa dạng",
+  text: "Chúng tôi cam kết mang đến cho khách hàng dịch vụ hoàn hảo.",
   services: serviceSectionThree,
 };
 

@@ -1,10 +1,12 @@
 import trustedSection from "@/data/trustedSection";
+import trustedSectionEn from "@/data/en/trustedSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { title, features, title2, text, textList, image } = trustedSection;
-
-const TrustedSection = () => {
+const TrustedSection = ({ lan = "vi" }) => {
+  console.log("TRUSTED ----", lan);
+  const { title, features, title2, text, textList, image } =
+    lan === "vi" ? trustedSection : trustedSectionEn;
   return (
     <section className="trusted-section">
       <div className="auto-container">

@@ -33,18 +33,17 @@ export const mainFooter = {
   about2: "The new corporate agency theme",
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
-  text: "The leading credit solution provider in Vietnam.",
+  text: "Nhà cung cấp dịch vụ thông tin tín dụng hàng đầu Việt nam.",
   address:
-    "12th Floor, Diamond Flower Tower, 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
+    "Tầng 12, Tòa nhà Diamond Flower, 48 Lê Văn Lương, Thanh Xuân, Hà Nội, Việt Nam",
   address3:
-    "12th Floor, Diamond Flower Tower, 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
+    "Tầng 12, Tòa nhà Diamond Flower, 48 Lê Văn Lương, Thanh Xuân, Hà Nội, Việt Nam",
   address2:
-    "12th Floor, Diamond Flower Tower, 48 Le Van Luong, Thanh Xuan, Hanoi, Vietnam",
+    "Tầng 12, Tòa nhà Diamond Flower, 48 Lê Văn Lương, Thanh Xuân, Hà Nội, Việt Nam",
   phone: "0886 019 189",
   phone2: "+84 886 019 189",
   email: "support@nwcic.vn",
-  textBottom:
-    "Sign up for our latest news & articles. We won’t give you spam mails.",
+  textBottom: "Đăng ký để nhận ngay những thông tin tín dụng mới nhất.",
   subscribeText:
     "Register and get notified about the news & updates before it gets too late.",
   socials: [
@@ -73,22 +72,22 @@ export const mainFooter = {
     {
       id: 1,
       href: "/about",
-      title: "About Us",
+      title: "Giới thiệu",
     },
     {
       id: 2,
       href: "/services",
-      title: "Solutions",
+      title: "Giải pháp",
     },
     {
       id: 3,
       href: "/contact",
-      title: "Contact Us",
+      title: "Liên hệ",
     },
     {
       id: 4,
       href: "/blog",
-      title: "Latest News",
+      title: "Tin tức",
     },
     {
       id: 5,

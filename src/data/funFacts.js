@@ -3,17 +3,17 @@ import bg from "@/images/background/image-1.jpg";
 const funFacts = [
   {
     id: 1,
-    title: "Team Members",
+    title: "Nhân sự",
     count: 26,
   },
   {
     id: 2,
-    title: "Working Hours",
+    title: "Giờ Xây dựng",
     count: 8000,
   },
   {
     id: 3,
-    title: "Months",
+    title: "tháng",
     count: 25,
   },
 ];

@@ -19,29 +19,28 @@ import TeamSection from "@/components/TeamSection/TeamSection";
 import TrustedSection from "@/components/TrustedSection/TrustedSection";
 import WeDOSection from "@/components/WeDOSection/WeDOSection";
 import React from "react";
-
+import { useRouter } from "next/router";
 const Home = () => {
+  const { locale } = useRouter();
+  console.log("LOCALE ---", locale);
   return (
     <Layout pageTitle="Home">
       <Style />
-      <HeaderOne />
+      <HeaderOne lan={locale} />
       <MobileMenu />
       <SearchPopup />
-      <BannerOne />
-      <ServicesSectionOne />
-      <AboutSection />
-      <LiveSection />
-      <WeDOSection />
-
-      <FunFactsOne />
-      <TrustedSection />
-
-      <ParallaxSection />
-
-      <AgencySection />
-      <NewsSection />
-      <CallToSection />
-      <MainFooter normalPadding={false} />
+      <BannerOne lan={locale} />
+      <ServicesSectionOne lan={locale} />
+      <AboutSection lan={locale} />
+      <LiveSection lan={locale} />
+      <WeDOSection lan={locale} />
+      <FunFactsOne lan={locale} />
+      <TrustedSection lan={locale} />
+      <ParallaxSection lan={locale} />
+      <AgencySection lan={locale} />
+      <NewsSection lan={locale} />
+      <CallToSection lan={locale} />
+      <MainFooter lan={locale} normalPadding={false} />
     </Layout>
   );
 };

@@ -4,26 +4,26 @@ export const bannerTwo = [
   {
     id: 1,
     bg: "1.jpg",
-    subtitle: "Welcome to New World CIC",
-    title: "Clear Credit \n Better Business",
+    subtitle: "Chào mừng bạn đến với",
+    title: "Công ty \n Thông tin Tín dụng \n New World CIC",
   },
   {
     id: 2,
     bg: "2.jpg",
-    subtitle: "New World CIC",
-    title: "Unlock Credit \nPotential",
+    subtitle: "Nhận ngay MIỄN PHÍ",
+    title: "Báo cáo Tín dụng \nNew World",
   },
   {
     id: 3,
     bg: "2.jpg",
     subtitle: "New World CIC",
-    title: "Shaping the Future\n of Credit Data",
+    title: "Dịch vụ \n Thông tin Tín dụng \n Hàng đầu",
   },
   {
     id: 4,
     bg: "1.jpg",
-    subtitle: "Get your FREE",
-    title: "New World \nCredit Score",
+    subtitle: "Tìm hiểu ngay",
+    title: "Điểm tín dụng \n New World",
   },
 ];
 

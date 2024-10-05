@@ -2,9 +2,9 @@ import Link from "next/link";
 import React, { forwardRef } from "react";
 import TextSplit from "../Reuseable/TextSplit";
 
-const SlideItemOne = ({ slide = {} }, ref) => {
+const SlideItemOne = ({ lan = "vi", slide = {} }, ref) => {
   const { bg, subtitle, title } = slide;
-
+  const buttonText = lan === "vi" ? "Tìm hiểu thêm" : "Discover more";
   return (
     <div ref={ref} style={{ userSelect: "none" }} className="slide-item">
       <div
@@ -29,7 +29,7 @@ const SlideItemOne = ({ slide = {} }, ref) => {
               <div className="link-box">
                 <Link href="/about" className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
-                  <span className="btn-title">Discover More</span>
+                  <span className="btn-title">{buttonText}</span>
                 </Link>
               </div>
             </div>

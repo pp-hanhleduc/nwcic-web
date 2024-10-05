@@ -1,15 +1,20 @@
 import newsSection from "@/data/newsSection";
+import newsSectionEn from "@/data/en/newsSection";
 import useActive from "@/hooks/useActive";
 import Link from "next/link";
 import React from "react";
 import { Row } from "react-bootstrap";
 import SingleNews from "./SingleNews";
 
-const { title, newsData } = newsSection;
-
-const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
+const NewsSection = ({
+  lan = "vi",
+  className = "",
+  showTitle = true,
+  isMore = false,
+}) => {
   const ref = useActive("#blog");
-
+  const { title, newsData } = lan === "vi" ? newsSection : newsSectionEn;
+  const buttonText = lan === "vi" ? "Xem tiếp" : "Load more";
   return (
     <section ref={ref} className={`news-section ${className}`} id="blog">
       <div className="auto-container">
@@ -31,7 +36,7 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
           <div className="more-box">
             <Link href="/blog" className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
-              <span className="btn-title">Load more posts</span>
+              <span className="btn-title">{buttonText}</span>
             </Link>
           </div>
         )}

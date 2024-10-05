@@ -1,12 +1,13 @@
 import weDOSection from "@/data/weDOSection";
+import weDOSectionEn from "@/data/en/weDOSection";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import VisibilitySensor from "react-visibility-sensor";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { title, featuredImage, text, barTitle, barPercent, faqs } = weDOSection;
-
-const WeDOSection = () => {
+const WeDOSection = ({ lan = "vi" }) => {
+  const { title, featuredImage, text, barTitle, barPercent, faqs } =
+    lan === "vi" ? weDOSection : weDOSectionEn;
   const [countStart, setCountStart] = useState(false);
   const [currentFaq, setCurrentFaq] = useState(1);
 

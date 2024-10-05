@@ -9,21 +9,22 @@ import MainFooter from "@/components/MainFooter/MainFooter";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
-
-const faqs = () => {
+import { useRouter } from "next/router";
+const Faqs = () => {
+  const { locale } = useRouter();
   return (
-    <Layout pageTitle="FAQs">
+    <Layout pageTitle="FAQ">
       <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
-      <PageBanner title="FAQs" />
-      <FaqsSection />
-      <GetQuoteThree />
-      <CallToSectionTwo className="alternate" />
-      <MainFooter />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
+      <PageBanner lan={locale} title="FAQ" />
+      <FaqsSection lan={locale} />
+      <GetQuoteThree lan={locale} />
+      <CallToSectionTwo lan={locale} className="alternate" />
+      <MainFooter lan={locale} />
     </Layout>
   );
 };
 
-export default faqs;
+export default Faqs;

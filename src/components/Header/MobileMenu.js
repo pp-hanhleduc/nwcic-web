@@ -1,12 +1,13 @@
 import NavItem from "@/components/Header/NavItem";
 import { useRootContext } from "@/context/context";
 import headerData from "@/data/header";
+import headerDataEn from "@/data/en/header";
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const { icon, text, email, phone, socials, navItems, navItemsTwo } = headerData;
-
-const MobileMenu = ({ onePage = false }) => {
+const MobileMenu = ({ lan = "vi", onePage = false }) => {
+  const { icon, text, email, phone, socials, navItems, navItemsTwo } =
+    lan === "vi" ? headerData : headerDataEn;
   const { menuStatus, toggleMenu } = useRootContext();
 
   const newNavItems = onePage ? navItemsTwo : navItems;

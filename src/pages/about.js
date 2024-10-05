@@ -15,21 +15,24 @@ import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSe
 import AboutSection from "@/components/AboutSection/AboutSection";
 
 import React from "react";
+import { useRouter } from "next/router";
 
 const About = () => {
+  const { locale } = useRouter();
+  const title = locale === "vi" ? "Liên hệ" : "About Us";
   return (
     <Layout pageTitle="About Us">
       <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
-      <PageBanner title="About Us" />
-      <AboutSection />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
+      <PageBanner lan={locale} title={title} />
+      <AboutSection lan={locale} />
 
-      <ParallaxSection />
-      <AgencySection />
+      <ParallaxSection lan={locale} />
+      <AgencySection lan={locale} />
 
-      <MainFooter />
+      <MainFooter lan={locale} />
     </Layout>
   );
 };

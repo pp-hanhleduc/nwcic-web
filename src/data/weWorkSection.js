@@ -1,17 +1,17 @@
 export const weWorkSection = {
-  title: "How We Work",
+  title: "Các bước tiến hành",
   tabBtns: [
     {
       id: "tab-1",
-      title: "Get the clients request ",
+      title: "Tiếp nhận yêu cầu",
     },
     {
       id: "tab-2",
-      title: "Consult with team",
+      title: "Thảo luận trong team",
     },
     {
       id: "tab-3",
-      title: "Make a schedule",
+      title: "Lên lịch làm việc",
     },
   ],
   tabsContents: [
@@ -19,39 +19,39 @@ export const weWorkSection = {
       id: "tab-1",
       image: "featured-image-14.jpg",
       text1:
-        " Gather and clarify the client's credit information needs and objectives.",
+        "Thu thập và làm rõ nhu cầu và mục tiêu về thông tin tín dụng của khách hàng.",
       text2: "",
       lists: [
-        "Understand the client's specific credit information needs (e.g., credit reports, risk assessments, financial insights).",
-        "Clarify the objectives (e.g., monitoring credit risk, evaluating potential partners or clients).",
-        "Discuss any compliance or industry-specific requirements.",
-        "Confirm service type (standard reports or tailored analysis) and set initial timelines.",
+        "Tìm hiểu nhu cầu thông tin tín dụng cụ thể của khách hàng (ví dụ: báo cáo tín dụng, đánh giá rủi ro, thông tin tài chính).",
+        "Làm rõ các mục tiêu (ví dụ: theo dõi rủi ro tín dụng, đánh giá các đối tác hoặc khách hàng tiềm năng).",
+        "Thảo luận về các yêu cầu tuân thủ hoặc yêu cầu cụ thể của khách hàng",
+        "Xác nhận loại dịch vụ (báo cáo tiêu chuẩn hoặc phân tích được thiết kế riêng) và đặt mốc thời gian ban đầu",
       ],
     },
     {
       id: "tab-2",
       image: "featured-image-14.jpg",
       text1:
-        "Collaborate with the team to create a tailored credit information solution.",
+        "Hợp tác với nhóm để tạo ra giải pháp thông tin tín dụng phù hợp với yêu cầu khách hàng.",
       text2: "",
       lists: [
-        "Analyze the client’s request in detail with the team.",
-        "Assign tasks to credit analysts and data specialists.",
-        "Develop a customized solution, considering industry-specific factors.",
-        "Review available data sources, potential risks, and compliance considerations.",
+        "Phân tích chi tiết yêu cầu của khách hàng với nhóm.",
+        "Giao nhiệm vụ cho các chuyên gia phân tích tín dụng và chuyên gia dữ liệu.",
+        "Phát triển giải pháp tùy chỉnh, xem xét các yếu tố cụ thể của ngành.",
+        "Xem xét các nguồn dữ liệu có sẵn, rủi ro tiềm ẩn và các cân nhắc về tuân thủ.",
       ],
     },
     {
       id: "tab-3",
       image: "featured-image-14.jpg",
       text1:
-        "Finalize the plan with the client and establish a schedule for delivery and feedback.",
+        "Hoàn thiện kế hoạch với khách hàng và lập lịch trình chuyển giao và phản hồi.",
       text2: "",
       lists: [
-        "Present the proposed solution and any specific recommendations.",
-        "Agree on the timeline and deliverables for the credit report or analysis.",
-        "Schedule regular progress updates or meetings for feedback.",
-        "Ensure that the client’s expectations align with the final delivery.",
+        "Trình bày & đề xuất giải pháp.",
+        "Thống nhất về mốc thời gian và các mục tiêu cần đạt được cho báo cáo tín dụng hoặc phân tích dữ liệu.",
+        "Lên lịch cập nhật tiến độ thường xuyên hoặc họp để nhận phản hồi.",
+        "Đảm bảo rằng kỳ vọng của khách hàng phù hợp với mục tiêu cuối cùng.",
       ],
     },
   ],

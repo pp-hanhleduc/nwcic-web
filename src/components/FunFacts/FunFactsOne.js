@@ -1,4 +1,5 @@
 import { funFactsOne } from "@/data/funFacts";
+import { funFactsOneEn } from "@/data/en/funFacts";
 import dynamic from "next/dynamic";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
@@ -6,9 +7,8 @@ import JarallaxImage from "../Jarallax/JarallaxImage";
 import VisibilityCountUp from "../VisibilityCountUp/VisibilityCountUp";
 const Jarallax = dynamic(() => import("../Jarallax/Jarallax"), { ssr: false });
 
-const { bg, funFacts } = funFactsOne;
-
-const FunFactsOne = () => {
+const FunFactsOne = ({ lan = "vi" }) => {
+  const { bg, funFacts } = lan === "vi" ? funFactsOne : funFactsOneEn;
   return (
     <Jarallax className="facts-section" speed={0.3} imgPosition="50% 80%">
       <JarallaxImage src={bg.src} />

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Style = ({
-  font = "Beiruti, sans-serif",
+  font = "Phudu, Tahoma, sans-serif",
   bFont = "Montserrat, sans-serif",
   black = "#222429",
   text = "#686a6f",

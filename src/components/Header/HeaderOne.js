@@ -1,25 +1,11 @@
 import { useRootContext } from "@/context/context";
 import headerData from "@/data/header";
+import headerDataEn from "@/data/en/header";
 import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
 import React from "react";
 import { Image } from "react-bootstrap";
 import NavItem from "./NavItem";
-
-const {
-  title,
-  logo1,
-  logo2,
-  logo3,
-  logo4,
-  logo5,
-  logo9,
-  title2,
-  navItems,
-  navItemsTwo,
-  phone,
-  socials,
-} = headerData;
 
 const HeaderOne = ({
   headerStyle = "header-style-one",
@@ -29,7 +15,25 @@ const HeaderOne = ({
   autoContainer = false,
   links = true,
   rightMenu = false,
+  lan = "vi",
 }) => {
+  const {
+    title,
+    logo1,
+    logo2,
+    logo3,
+    logo4,
+    logo5,
+    logo9,
+    title2,
+    navItems,
+    navItemsTwo,
+    phone,
+    socials,
+  } = lan === "vi" ? headerData : headerDataEn;
+
+  const langLink = lan === "vi" ? "/en" : "/";
+  const langText = lan === "vi" ? "EN" : "VI";
   const { scrollTop } = useScroll(120);
   const { toggleMenu, toggleSearch } = useRootContext();
   const newNavItems = onePage ? navItemsTwo : navItems;
@@ -139,6 +143,11 @@ const HeaderOne = ({
                     <span className="flaticon-loupe"></span>
                   </button>
                 </div>
+                <div className="lang-btn">
+                  <a className="link" href={langLink}>
+                    <b>{langText}</b>
+                  </a>
+                </div>
                 <div className="link-box">
                   <div className="call-us">
                     <a
@@ -164,6 +173,17 @@ const HeaderOne = ({
                     <span className="flaticon-loupe"></span>
                   </button>
                 </div>
+
+                <div className="lang-btn">
+                  <button
+                    onClick={toggleSearch}
+                    type="button"
+                    className="theme-btn search-toggler"
+                  >
+                    <span className="flaticon-loupe"></span>
+                  </button>
+                </div>
+
                 <div onClick={toggleMenu} className="mobile-nav-toggler">
                   <span className="bar"></span>
                   <span className="bar"></span>

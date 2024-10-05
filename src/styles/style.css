@@ -155,7 +155,7 @@ h1 {
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 h3 {
@@ -692,8 +692,8 @@ img {
   position: relative;
   float: left;
   padding: 40px 0px;
-  padding-right: 50px;
-  margin-right: 50px;
+  padding-right: 30px;
+  margin-right: 30px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -711,6 +711,33 @@ img {
 .main-header .other-links .search-btn button span {
   vertical-align: middle;
 }
+
+/*------*/
+.main-header .other-links .lang-btn {
+  position: relative;
+  float: left;
+  padding: 40px 0px;
+  padding-right: 30px;
+  margin-right: 30px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main-header .other-links .lang-btn button {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: none;
+  line-height: 32px;
+  color: #f15d8a;
+  cursor: pointer;
+}
+
+.main-header .other-links .lang-btn button span {
+  vertical-align: middle;
+}
+
+/*------*/
 
 .main-header .nav-outer {
   position: absolute;
@@ -2664,7 +2691,7 @@ img.lazy-image.loaded {
 .banner-carousel .content-box .inner {
   position: relative;
   display: block;
-  max-width: 800px;
+  max-width: 100%;
 }
 
 .banner-two .banner-carousel .content-box .inner {
@@ -2704,8 +2731,8 @@ img.lazy-image.loaded {
 
 .banner-carousel .content-box h1 {
   display: block;
-  font-size: 140px;
-  line-height: 0.85em;
+  font-size: 100px;
+  line-height: 1em;
   color: #ffffff;
   font-weight: 600;
   opacity: 0;
@@ -5638,7 +5665,7 @@ img.lazy-image.loaded {
 .parallax-section .content-box h2 {
   position: relative;
   display: block;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1em;
   text-transform: uppercase;
   color: #ffffff;

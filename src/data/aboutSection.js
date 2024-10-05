@@ -15,15 +15,15 @@ import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 export const aboutSectionOne = {
   image1,
   image2,
-  title: "We’re the best credit agency in Vietnam",
+  title: "Chúng tôi mang tới những dịch vụ khác biệt ",
   text1:
-    "Our expertise in the domestic landscape allows us to provide insights that are highly relevant and actionable for businesses operating within Vietnam.",
+    "Kinh nghiệm và am hiểu thị trường nội địa cho phép New World CIC cung cấp tới khách hàng các dịch vụ phù hợp đáp ứng mọi tiêu chuẩn ngành.",
   text2:
-    "By focusing on localized data and industry-specific trends, we ensure that our customers receive the most accurate and relevant credit solutions to make informed decisions, manage risks, and drive sustainable growth.",
+    "Bằng cách tập trung vào dữ liệu nội địa và xu hướng đặc thù riêng biệt, New World CIC đảm bảo khách hàng nhận được các giải pháp tín dụng chính xác và phù hợp nhất để đưa ra quyết định sáng suốt, quản lý rủi ro và thúc đẩy tăng trưởng bền vững.",
   textList: [
-    "Local Market Expertise.",
-    "Tailored Credit Solutions.",
-    "Trusted, Reliable Credit Data.",
+    "Am hiểu Thị trường Nội địa.",
+    "Giải pháp Tín dụng Chuyên biệt.",
+    "Dữ liệu Tín dụng Tin cậy.",
   ],
   since: "2022",
 };

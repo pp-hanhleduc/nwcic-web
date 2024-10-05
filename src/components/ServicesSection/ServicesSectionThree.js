@@ -1,13 +1,14 @@
-import { servicesSectionThree } from "@/data/servicesSection";
+import { servicesSectionThree1 } from "@/data/servicesSection";
+import { servicesSectionThree1En } from "@/data/en/servicesSection";
 import useActive from "@/hooks/useActive";
 import React from "react";
 import { Row } from "react-bootstrap";
 import SingleService from "./SingleService";
 
-const { title, services } = servicesSectionThree;
-
-const ServicesSectionThree = ({ className = "" }) => {
+const ServicesSectionThree = ({ lan = "vi", className = "" }) => {
   const ref = useActive("#services");
+  const { title, services } =
+    lan === "vi" ? servicesSectionThree1 : servicesSectionThree1En;
 
   return (
     <section

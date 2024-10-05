@@ -10,22 +10,25 @@ import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne"
 import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
 import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
+import { useRouter } from "next/router";
 
-const services = () => {
+const Services = () => {
+  const { locale } = useRouter();
+  const strTitle = locale === "vi" ? "Giải pháp" : "Solutions";
   return (
-    <Layout pageTitle="Services">
+    <Layout pageTitle={strTitle}>
       <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
-      <PageBanner title="Services" />
-      <ServicesSectionThree className="padd-top" />
-      <ServicesSectionOne />
-      <WeWorkSection />
-      <CallToSectionTwo className="alternate" />
-      <MainFooter />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
+      <PageBanner lan={locale} title={strTitle} />
+      <ServicesSectionThree lan={locale} className="padd-top" />
+      <ServicesSectionOne lan={locale} />
+      <WeWorkSection lan={locale} />
+      <CallToSectionTwo lan={locale} className="alternate" />
+      <MainFooter lan={locale} />
     </Layout>
   );
 };
 
-export default services;
+export default Services;

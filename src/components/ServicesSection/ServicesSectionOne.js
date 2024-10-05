@@ -1,12 +1,13 @@
 import { servicesSectionOne } from "@/data/servicesSection";
+import { servicesSectionOneEn } from "@/data/en/servicesSection";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 import SingleServiceOne from "./SingleServiceOne";
 
-const { title, text, services } = servicesSectionOne;
-
-const ServicesSectionOne = () => {
+const ServicesSectionOne = ({ lan = "vi" }) => {
+  const { title, text, services } =
+    lan === "vi" ? servicesSectionOne : servicesSectionOneEn;
   return (
     <section className="services-section">
       <div className="auto-container">

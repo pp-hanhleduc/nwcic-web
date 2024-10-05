@@ -12,7 +12,7 @@ import logo9 from "@/images/update-26-02-2021/logo-horizontal-portfolio.png";
 
 const home = {
   id: 1,
-  name: "Home",
+  name: "Trang chủ",
   href: "/",
 };
 
@@ -59,13 +59,13 @@ const navItems = [
   home,
   {
     id: 2,
-    name: "About Us",
+    name: "Giới thiệu",
     href: "/about",
   },
 
   {
     id: 3,
-    name: "Services",
+    name: "Giải pháp",
     href: "/services",
   },
   {
@@ -76,12 +76,12 @@ const navItems = [
 
   {
     id: 5,
-    name: "News",
+    name: "Tin tức",
     href: "/blog-grid",
   },
   {
     id: 6,
-    name: "Contact Us",
+    name: "Liên hệ",
     href: "/contact",
   },
 ];
@@ -126,7 +126,7 @@ const headerData = {
   navItems,
   navItemsTwo,
   address:
-    "14-15A, 7th Floor, Charmvit Tower, 117 Tran Duy Hung, Cau Giay, Hanoi, Vietnam",
+    " Tầng 12, Tòa nhà Diamond Flower, 48 Lê Văn Lương, Thanh Xuân, Hà Nội",
   phone: "0886 019 189",
   phone2: "+84 886 019 189",
   email: "support@nwcic.vn",

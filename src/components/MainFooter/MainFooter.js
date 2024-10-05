@@ -1,29 +1,28 @@
 import { mainFooter } from "@/data/mainFooter";
+import { mainFooterEn } from "@/data/en/mainFooter";
 import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const {
-  year,
-  author,
-  logo,
-  text,
-  socials,
-  links,
-  address,
-  phone,
-  email,
-  textBottom,
-} = mainFooter;
-
-const MainFooter = ({ normalPadding = true }) => {
+const MainFooter = ({ lan = "vi", normalPadding = true }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
     console.log(formData.get("email"));
   };
-
+  const {
+    year,
+    author,
+    logo,
+    text,
+    socials,
+    links,
+    address,
+    phone,
+    email,
+    textBottom,
+  } = lan === "vi" ? mainFooter : mainFooterEn;
   return (
     <footer className={`main-footer${normalPadding ? " normal-padding" : ""}`}>
       <div className="auto-container">

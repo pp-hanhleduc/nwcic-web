@@ -1,12 +1,12 @@
 import { weWorkSection } from "@/data/weWorkSection";
+import { weWorkSectionEn } from "@/data/en/weWorkSection";
 import React, { useState } from "react";
 import SingleWeWork from "./SingleWeWork";
 
-const { title, tabBtns, tabsContents } = weWorkSection;
-
-const WeWorkSection = () => {
+const WeWorkSection = ({ lan = "vi" }) => {
   const [current, setCurrent] = useState("tab-1");
-
+  const { title, tabBtns, tabsContents } =
+    lan === "vi" ? weWorkSection : weWorkSectionEn;
   return (
     <section className="we-work-section">
       <div className="auto-container">

@@ -1,14 +1,16 @@
 import { aboutSectionOne } from "@/data/aboutSection";
+import { aboutSectionOneEn } from "@/data/en/aboutSection";
 import useActive from "@/hooks/useActive";
 import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
-const { image1, image2, title, text1, text2, textList, since } =
-  aboutSectionOne;
-
-const AboutSection = () => {
+const AboutSection = ({ lan = "vi" }) => {
+  console.log("--------", lan);
+  const { image1, image2, title, text1, text2, textList, since } =
+    lan === "vi" ? aboutSectionOne : aboutSectionOneEn;
+  const buttonText = lan === "vi" ? "Tìm hiểu ngay" : "Discover more";
   const ref = useActive("#about");
 
   return (
@@ -53,7 +55,7 @@ const AboutSection = () => {
               <div className="link-box">
                 <Link href="/about" className="theme-btn btn-style-one">
                   <i className="btn-curve"></i>
-                  <span className="btn-title">Discover More</span>
+                  <span className="btn-title">{buttonText}</span>
                 </Link>
               </div>
             </div>

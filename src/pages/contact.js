@@ -10,19 +10,21 @@ import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
 import MainFooter from "@/components/MainFooter/MainFooter";
-
+import { useRouter } from "next/router";
 const Contact = () => {
+  const { locale } = useRouter();
+  const title = locale === "vi" ? "Liên hệ" : "Contact Us";
   return (
-    <Layout pageTitle="Contact Us">
+    <Layout pageTitle={title}>
       <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
-      <PageBanner title="Contact Us" />
-      <ContactSectionTwo />
-      <ContactInfoTwo />
-      <MapBox />
-      <MainFooter normalPadding={false} />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
+      <PageBanner lan={locale} title={title} />
+      <ContactSectionTwo lan={locale} />
+      <ContactInfoTwo lan={locale} />
+      <MapBox lan={locale} />
+      <MainFooter lan={locale} normalPadding={false} />
     </Layout>
   );
 };

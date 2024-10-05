@@ -3,8 +3,8 @@ import bg from "@/images/background/image-2.jpg";
 const parallaxSection = {
   bg,
   icon: "flaticon-app-development",
-  title: "Great things in business are never done by one person.",
-  title2: "They’re done by a team of people.",
+  title: "Khi đơn độc chúng ta làm được rất ít.",
+  title2: "Cùng nhau chúng ta có thể tạo ra nhiều thứ.",
 };
 
 export const parallaxPage = [

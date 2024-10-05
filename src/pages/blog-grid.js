@@ -7,17 +7,19 @@ import NewsSection from "@/components/NewsSection/NewsSection";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
-
+import { useRouter } from "next/router";
 const BlogGrid = () => {
+  const { locale } = useRouter();
+  const title = locale === "vi" ? "Tin tức & Sự kiện" : "News & Events";
   return (
-    <Layout pageTitle="Blog Posts">
+    <Layout pageTitle={title}>
       <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
-      <PageBanner title="Blog Posts" />
-      <NewsSection showTitle={false} isMore />
-      <MainFooter />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
+      <PageBanner title={title} lan={locale} />
+      <NewsSection lan={locale} showTitle={false} isMore />
+      <MainFooter lan={locale} />
     </Layout>
   );
 };

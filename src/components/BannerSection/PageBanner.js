@@ -3,11 +3,13 @@ import Link from "next/link";
 import React from "react";
 
 const PageBanner = ({
+  lan = "vi",
   title = "",
   page = "",
   parent = "",
   parentHref = "/",
 }) => {
+  const strHome = lan === "vi" ? "Trang chủ" : "Home";
   return (
     <section className="page-banner">
       <div
@@ -23,7 +25,7 @@ const PageBanner = ({
             <div className="page-nav">
               <ul className="bread-crumb clearfix">
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/">{strHome}</Link>
                 </li>
                 {parent && (
                   <li>
