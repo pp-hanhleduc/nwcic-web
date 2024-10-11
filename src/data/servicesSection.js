@@ -32,7 +32,7 @@ const servicesSection = {
 };
 
 export const servicesSectionThree1 = {
-  title: "Các Giải pháp của chúng tôi",
+  title: "Giải pháp toàn diện",
   services,
 };
 
