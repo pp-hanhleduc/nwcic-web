@@ -1,21 +1,22 @@
 import { aboutSectionThree } from "@/data/aboutSection";
+import { aboutSectionThreeEn } from "@/data/en/aboutSection";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 import CountUp from "react-countup";
 import ReactVisibilitySensor from "react-visibility-sensor";
 
-const {
-  image,
-  title,
-  subtitle,
-  text,
-  lists,
-  barTitle,
-  barPercent,
-  aboutPerson: { name, tagline, image: personImage },
-} = aboutSectionThree;
+const AboutSectionThree = ({ lan = "vi" }) => {
+  const {
+    image,
+    title,
+    subtitle,
+    text,
+    lists,
+    barTitle,
+    barPercent,
+    aboutPerson: { name, tagline, image: personImage },
+  } = lan === "vi" ? aboutSectionThree : aboutSectionThreeEn;
 
-const AboutSectionThree = () => {
   const [countStart, setCountStart] = useState(false);
 
   const onVisibilityChange = (isVisible) => {
@@ -78,11 +79,6 @@ const AboutSectionThree = () => {
                     </div>
                   </div>
                 </ReactVisibilitySensor>
-              </div>
-              <div className="about-section-three__name">
-                <Image src={personImage.src} alt="" />
-                <h3>{name}</h3>
-                <p>{tagline}</p>
               </div>
             </div>
           </Col>

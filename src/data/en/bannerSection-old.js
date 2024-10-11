@@ -1,15 +1,33 @@
 import bg from "@/images/main-slider/banner-bg-shape-3.png";
 
-export const bannerTwo = [
+export const bannerTwoOld = [
   {
     id: 1,
+    bg: "1.jpg",
+    subtitle: "Welcome to New World CIC",
+    title: "Clear Credit \n Better Business",
+  },
+  {
+    id: 2,
     bg: "2.jpg",
-    subtitle: "Chào mừng bạn đến với",
-    title: "Công ty \n Thông tin Tín dụng \n New World CIC",
+    subtitle: "New World CIC",
+    title: "Unlock Credit \nPotential",
+  },
+  {
+    id: 3,
+    bg: "2.jpg",
+    subtitle: "New World CIC",
+    title: "Shaping the Future\n of Credit Data",
+  },
+  {
+    id: 4,
+    bg: "2.jpg",
+    subtitle: "Get your FREE",
+    title: "New World \nCredit Score",
   },
 ];
 
-export const bannerOne = {
+export const bannerOneEnOld = {
   bg,
   dayRange: "mon - fri",
   timeRange: "8am - 6pm",
@@ -53,7 +71,7 @@ export const bannerOne = {
   ],
 };
 
-export const bannerOnePage = [
+export const bannerOnePageOld = [
   {
     id: 1,
     bg: "2-1.jpg",
@@ -70,7 +88,7 @@ export const bannerOnePage = [
   },
 ];
 
-export const bannerSectionFour = [
+export const bannerSectionFourOld = [
   {
     id: 1,
     bg: "main-slider-1-1.jpg",

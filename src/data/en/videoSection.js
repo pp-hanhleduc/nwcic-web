@@ -15,7 +15,7 @@ export const videoSeven = {
   videoId: "8DP4NgupAhI",
 };
 
-export const videoOne = {
+export const videoOneEn = {
   image,
   videoId: "y2Eqx6ys1hQ",
   title: "Linoor is trusted by millions of customers",

@@ -3,25 +3,7 @@ import bg from "@/images/main-slider/banner-bg-shape-3.png";
 export const bannerTwo = [
   {
     id: 1,
-    bg: "1.jpg",
-    subtitle: "Welcome to New World CIC",
-    title: "Clear Credit \n Better Business",
-  },
-  {
-    id: 2,
     bg: "2.jpg",
-    subtitle: "New World CIC",
-    title: "Unlock Credit \nPotential",
-  },
-  {
-    id: 3,
-    bg: "2.jpg",
-    subtitle: "New World CIC",
-    title: "Shaping the Future\n of Credit Data",
-  },
-  {
-    id: 4,
-    bg: "1.jpg",
     subtitle: "Get your FREE",
     title: "New World \nCredit Score",
   },

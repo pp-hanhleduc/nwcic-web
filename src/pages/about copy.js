@@ -13,13 +13,6 @@ import SponsorsSectionTwo from "@/components/SponsorsSection/SponsorsSectionTwo"
 import TeamSectionTwo from "@/components/TeamSection/TeamSectionTwo";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import AboutSection from "@/components/AboutSection/AboutSection";
-import AboutSectionTwo from "@/components/AboutSection/AboutSectionTwo";
-import AboutSectionThree from "@/components/AboutSection/AboutSectionThree";
-import AboutSix from "@/components/AboutSection/AboutSix";
-import AboutSeven from "@/components/AboutSection/AboutSeven";
-import AboutEight from "@/components/AboutSection/AboutEight";
-import AboutNine from "@/components/AboutSection/AboutNine";
-import AboutTen from "@/components/AboutSection/AboutTen";
 
 import React from "react";
 import { useRouter } from "next/router";
@@ -34,10 +27,10 @@ const About = () => {
       <MobileMenu lan={locale} />
       <SearchPopup lan={locale} />
       <PageBanner lan={locale} title={title} />
+      <AboutSection lan={locale} />
 
-      <AboutSectionThree lan={locale} />
-      <AboutSix lan={locale} />
-      <AboutSeven lan={locale} />
+      <ParallaxSection lan={locale} />
+      <AgencySection lan={locale} />
 
       <MainFooter lan={locale} />
     </Layout>

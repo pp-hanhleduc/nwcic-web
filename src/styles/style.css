@@ -86,11 +86,11 @@
 
  ***/
 :root {
-  --thm-font: "Teko", sans-serif;
-  --thm-b-font: "Rubik", sans-serif;
+  --thm-font: "Phudu", sans-serif;
+  --thm-b-font: "Montserrat", sans-serif;
   --thm-base: #ffaa17;
   --thm-base-rgb: 255, 170, 23;
-  --thm-black: #222429;
+  --thm-black: #2e2b63;
   --thm-text: #686a6f;
 }
 
@@ -566,7 +566,7 @@ img {
   left: 0;
   top: 0;
   width: 100%;
-  background: none;
+  background:  #2e2b63;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 1;
   -webkit-transition: all 300ms ease;
@@ -582,7 +582,7 @@ img {
 }
 
 .fixed-header .header-upper {
-  background: #171717;
+  background: #2e2b63;
   -ms-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -o-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
   -webkit-box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.08);
@@ -805,6 +805,7 @@ img {
   opacity: 1;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
+  
 }
 
 .main-menu .navigation li > a {
@@ -835,7 +836,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  width: 40px;
+  width: 60px;
   top: -3px;
   position: relative;
 }
@@ -895,7 +896,7 @@ img {
   position: absolute;
   left: 0px;
   top: 100%;
-  width: 220px;
+  width: 260px;
   z-index: 100;
   display: none;
   background: #ffffff;
@@ -3655,7 +3656,9 @@ img.lazy-image.loaded {
 .sec-title h2 .dot {
   color: var(--thm-base);
 }
-
+.dot {
+  color: var(--thm-base);
+}
 .sec-title .lower-text {
   position: relative;
   display: block;
@@ -3745,7 +3748,7 @@ img.lazy-image.loaded {
   position: relative;
   display: block;
   padding: 50px 45px;
-  background: #1c1e22;
+  background: #2e2b63;
   min-height: 100%;
   border-radius: 7px;
   overflow: hidden;
@@ -8996,7 +8999,8 @@ img.lazy-image.loaded {
 
 /* feature seven */
 .feature-seven {
-  padding-top: 90px;
+  padding-top: 30px;
+  background-color :#edf1f3;
 }
 
 @media (min-width: 992px) {
@@ -10440,16 +10444,22 @@ img.lazy-image.loaded {
   font-size: 18px;
   font-weight: 500;
   line-height: 2;
+  margin-bottom: 20px;
+  text-align: justify;
+  border: red ;
+  mask-border-width: 1px;
 }
 
 .about-section-three__list li > i {
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   color: var(--thm-base);
-  font-size: 16px;
+  font-size: 25px;
+  
+  
 }
 
 .about-section-three__content .progress-box {
@@ -12729,7 +12739,7 @@ img.lazy-image.loaded {
   display: flex;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  font-family: "Teko", sans-serif;
+  font-family: "Phudu", sans-serif;
   position: relative;
 }
 
@@ -16354,7 +16364,8 @@ img.lazy-image.loaded {
 --------------------------------------------------------------*/
 .video-one {
   padding-top: 90px;
-  padding-bottom: 75px;
+  padding-bottom: 10px;
+  
 }
 
 @media (min-width: 992px) {
@@ -18533,11 +18544,20 @@ img.lazy-image.loaded {
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-
+.about-six__box__text {
+  color: var(--thm-black);
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5em;
+   -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
 .about-six__box:hover .about-six__box__title {
   color: #fff;
 }
-
+.about-six__box:hover .about-six__box__text {
+  color: #fff;
+}
 .about-six__box__icon {
   width: 63px;
   height: 63px;
@@ -22209,6 +22229,7 @@ img.lazy-image.loaded {
 .about-ten__image img {
   max-width: 100%;
   margin-bottom: 60px;
+  margin-top: 50px;
 }
 
 @media (min-width: 992px) {
@@ -22230,7 +22251,7 @@ img.lazy-image.loaded {
 @media (min-width: 1200px) {
   .about-ten__content {
     padding-left: 100px;
-    padding-top: 116px;
+    padding-top: 50px;
   }
 }
 
@@ -22242,6 +22263,7 @@ img.lazy-image.loaded {
   margin: 0;
   margin-top: -20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 @media (min-width: 1200px) {
@@ -22322,6 +22344,7 @@ img.lazy-image.loaded {
   margin: 0;
   font-size: 18px;
   line-height: 1.889;
+  text-align: justify;
 }
 
 /* service eight */

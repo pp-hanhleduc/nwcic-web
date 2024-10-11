@@ -1,11 +1,13 @@
 import { aboutSeven } from "@/data/aboutSection";
+import { aboutSevenEn } from "@/data/en/aboutSection";
 import Link from "next/link";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { images, tagline, title, text, title2, lists } = aboutSeven;
-
-const AboutSeven = () => {
+const AboutSeven = ({ lan = "vi" }) => {
+  const { images, tagline, title, text, title2, lists } =
+    lan === "vi" ? aboutSeven : aboutSevenEn;
+  const buttonText = lan === "vi" ? "Liên hệ ngay" : "Contact Us Now";
   return (
     <section className="about-seven">
       <div className="auto-container">
@@ -35,8 +37,8 @@ const AboutSeven = () => {
                   </li>
                 ))}
               </ul>
-              <Link href="/about" className="about-seven__btn thm-btn__six">
-                Discover More
+              <Link href="/contact" className="about-seven__btn thm-btn__six">
+                {buttonText}
               </Link>
             </div>
           </Col>

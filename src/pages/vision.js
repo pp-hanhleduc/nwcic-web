@@ -15,18 +15,19 @@ import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSe
 import AboutSection from "@/components/AboutSection/AboutSection";
 import AboutSectionTwo from "@/components/AboutSection/AboutSectionTwo";
 import AboutSectionThree from "@/components/AboutSection/AboutSectionThree";
-import AboutSix from "@/components/AboutSection/AboutSix";
+import AboutSix1 from "@/components/AboutSection/AboutSix1";
 import AboutSeven from "@/components/AboutSection/AboutSeven";
 import AboutEight from "@/components/AboutSection/AboutEight";
 import AboutNine from "@/components/AboutSection/AboutNine";
 import AboutTen from "@/components/AboutSection/AboutTen";
-
+import AboutMeOne from "@/components/AboutSection/AboutMeOne";
+import AboutMeCounter from "@/components/AboutSection/AboutMeCounter";
 import React from "react";
 import { useRouter } from "next/router";
 
-const About = () => {
+const Vision = () => {
   const { locale } = useRouter();
-  const title = locale === "vi" ? "Giới thiệu" : "About Us";
+  const title = locale === "vi" ? "Sứ mệnh & Tầm nhìn" : "Vision";
   return (
     <Layout pageTitle={title}>
       <Style />
@@ -34,14 +35,13 @@ const About = () => {
       <MobileMenu lan={locale} />
       <SearchPopup lan={locale} />
       <PageBanner lan={locale} title={title} />
-
-      <AboutSectionThree lan={locale} />
-      <AboutSix lan={locale} />
-      <AboutSeven lan={locale} />
-
+      <AboutTen lan={locale} />
+      <AboutSix1 lan={locale} />
+      <br />
+      <br />
       <MainFooter lan={locale} />
     </Layout>
   );
 };
 
-export default About;
+export default Vision;

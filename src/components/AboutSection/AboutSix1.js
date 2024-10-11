@@ -1,11 +1,11 @@
-import { aboutSix } from "@/data/aboutSection";
-import { aboutSixEn } from "@/data/en/aboutSection";
+import { aboutSix1 } from "@/data/aboutSection";
+import { aboutSix1En } from "@/data/en/aboutSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const AboutSix = ({ lan = "vi" }) => {
+const AboutSix1 = ({ lan = "vi" }) => {
   const { tagline, title, text, image, items } =
-    lan === "vi" ? aboutSix : aboutSixEn;
+    lan === "vi" ? aboutSix1 : aboutSix1En;
   return (
     <section className="about-six">
       <div className="about-six__curv">
@@ -59,4 +59,4 @@ const AboutSix = ({ lan = "vi" }) => {
   );
 };
 
-export default AboutSix;
+export default AboutSix1;

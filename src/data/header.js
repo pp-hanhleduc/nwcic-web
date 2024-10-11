@@ -61,6 +61,23 @@ const navItems = [
     id: 2,
     name: "Giới thiệu",
     href: "/about",
+    subNavItems: [
+      {
+        id: 1,
+        name: "Về chúng tôi",
+        href: "/about",
+      },
+      {
+        id: 2,
+        name: "Sứ mệnh & Tầm nhìn",
+        href: "/vision",
+      },
+      {
+        id: 3,
+        name: "Phát triển bền vũng",
+        href: "/sustainability",
+      },
+    ],
   },
 
   {

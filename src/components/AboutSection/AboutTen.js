@@ -1,10 +1,11 @@
 import { aboutTen } from "@/data/aboutSection";
+import { aboutTenEn } from "@/data/en/aboutSection";
 import React from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const { image, tagline, title, text, boxes } = aboutTen;
-
-const AboutTen = () => {
+const AboutTen = ({ lan = "vi" }) => {
+  const { image, tagline, title, text, boxes } =
+    lan === "vi" ? aboutTen : aboutTenEn;
   return (
     <section className="about-ten">
       <div className="auto-container">
@@ -32,6 +33,8 @@ const AboutTen = () => {
             </div>
           </Col>
         </Row>
+        <br></br>
+        <br></br>
       </div>
     </section>
   );

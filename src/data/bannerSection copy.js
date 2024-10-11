@@ -3,9 +3,27 @@ import bg from "@/images/main-slider/banner-bg-shape-3.png";
 export const bannerTwo = [
   {
     id: 1,
-    bg: "2.jpg",
+    bg: "1.jpg",
     subtitle: "Chào mừng bạn đến với",
     title: "Công ty \n Thông tin Tín dụng \n New World CIC",
+  },
+  {
+    id: 2,
+    bg: "2.jpg",
+    subtitle: "Nhận ngay MIỄN PHÍ",
+    title: "Báo cáo Tín dụng \nNew World",
+  },
+  {
+    id: 3,
+    bg: "2.jpg",
+    subtitle: "New World CIC",
+    title: "Dịch vụ \n Thông tin Tín dụng \n Hàng đầu",
+  },
+  {
+    id: 4,
+    bg: "1.jpg",
+    subtitle: "Tìm hiểu ngay",
+    title: "Điểm tín dụng \n New World",
   },
 ];
 
