@@ -102,35 +102,35 @@ export const aboutSixEn = {
 };
 export const aboutSix1En = {
   tagline: "New World CIC",
-  title: "Giá trị cốt lõi",
-  text: "NewWorld CIC không chỉ là nhà cung cấp thông tin tín dụng – chúng tôi là người bạn đồng hành trên hành trình phát triển bền vững của các doanh nghiệp. \n Với tầm nhìn toàn diện và cam kết phát triển, chúng tôi mong muốn xây dựng một hệ sinh thái tín dụng mạnh mẽ, giúp khách hàng của mình luôn nắm vững cơ hội và tiến bước vững chắc vào tương lai.",
+  title: "Core Values",
+  text: "New World CIC is not just a credit information provider — we are a trusted partner on the journey to sustainable business growth. With a comprehensive vision and commitment to development, we aim to build a robust credit ecosystem, enabling our clients to seize opportunities and move confidently into the future.",
   text1:
     "NewWorld CIC không chỉ là nhà cung cấp thông tin tín dụng – chúng tôi là người bạn đồng hành trên hành trình phát triển bền vững của các doanh nghiệp. \n Với tầm nhìn toàn diện và cam kết phát triển, chúng tôi mong muốn xây dựng một hệ sinh thái tín dụng mạnh mẽ, giúp khách hàng của mình luôn nắm vững cơ hội và tiến bước vững chắc vào tương lai.",
   image: image8,
   items: [
     {
       id: 1,
-      title: "Đổi mới và Tiên phong",
-      text: "Chúng tôi không ngừng sáng tạo và áp dụng những giải pháp công nghệ tiên tiến nhằm nâng cao chất lượng dữ liệu và cải thiện các quy trình phân tích. NewWorld CIC tự hào là người tiên phong trong việc áp dụng công nghệ để tối ưu hóa thông tin tín dụng tại Việt Nam.",
+      title: "Transparency and Trustworthiness",
+      text: "New World CIC prioritizes integrity and reliability. We are committed to delivering accurate and transparent information to ensure that partners and clients can confidently make strategic decisions.",
       icon: "flaticon-digital-marketing",
     },
     {
       id: 2,
-      title: "Tập trung vào Khách hàng",
-      text: "Sự thành công của khách hàng chính là thành công của chúng tôi. NewWorld CIC tập trung vào việc đáp ứng nhu cầu của các tổ chức tài chính và doanh nghiệp thông qua các dịch vụ được thiết kế phù hợp và mang tính đột phá, giúp đối tác quản lý rủi ro hiệu quả hơn.",
+      title: "Innovation and Leadership",
+      text: "We continually innovate and implement advanced technological solutions to enhance data quality and improve analytical processes. NewWorld CIC takes pride in being a pioneer in utilizing technology to optimize credit information in Vietnam.",
       icon: "flaticon-mouse",
     },
     {
       id: 3,
-      title: "Minh bạch và Tin cậy.",
-      text: "NewWorld CIC đặt tiêu chí trung thực và tin cậy lên hàng đầu. Chúng tôi cam kết mang lại những thông tin chính xác và minh bạch để đảm bảo đối tác và khách hàng có thể tự tin đưa ra các quyết định chiến lược.",
+      title: "Customer Focus",
+      text: "The success of our clients is our success. New World CIC is dedicated to meeting the needs of financial institutions and businesses through tailored and breakthrough services, helping partners manage risk more effectively.",
       icon: "flaticon-idea",
     },
 
     {
       id: 4,
-      title: "Phát triển bền vững",
-      text: "Chúng tôi tin rằng dữ liệu có thể tạo ra sự thay đổi lâu dài. Thông qua việc cung cấp các giải pháp tài chính bền vững, NewWorld CIC cam kết đóng góp cho sự phát triển kinh tế xã hội của Việt Nam một cách toàn diện và cân bằng.",
+      title: "Sustainable Development",
+      text: "We believe that data can create long-lasting change. By providing sustainable financial solutions, NewWorld CIC is committed to contributing to Vietnam's comprehensive and balanced economic and social development.",
       icon: "flaticon-briefcase",
     },
   ],
@@ -194,19 +194,19 @@ export const aboutEleven = {
 
 export const aboutTenEn = {
   image: image12,
-  tagline: "Why Choose Us",
-  title: "The Largest Business Experts",
-  text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  tagline: "New World CIC",
+  title: "Vision & Mission",
+  text: "",
   boxes: [
     {
       id: 1,
-      title: "Customer Experience",
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
+      title: "Vision",
+      text: "To become the leading provider of credit information services in Vietnam, offering transparency, essential insights, and financial efficiency to foster sustainable development in an ever-evolving financial landscape.",
     },
     {
       id: 2,
-      title: "Customer Experience",
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Dolor sit amet, adipsicing elit.",
+      title: "Mission",
+      text: "Harness the power of data to support credit institutions and businesses in managing risks, optimizing financial decisions, and creating opportunities for sustainable growth.",
     },
   ],
 };

@@ -64,77 +64,77 @@ export const featureSix = {
 };
 
 export const featureSevenEn = {
-  title: "Cam kết môi trường",
-  text: "NewWorld CIC luôn xem việc bảo vệ môi trường là nền tảng trong chiến lược phát triển bền vững",
+  title: "Environmental Commitment",
+  text: "New World CIC considers environmental protection as the foundation of our sustainable development strategy",
   features: [
     {
       id: 1,
       image: "sus1.jpg",
-      title: "Giảm phát thải và sử dụng năng lượng tái tạo",
-      text: "Chúng tôi cam kết giảm thiểu phát thải carbon và nâng cao việc sử dụng năng lượng tái tạo nhằm đạt mục tiêu chung phát thải ròng bằng 0. Các biện pháp này không chỉ giúp bảo vệ môi trường mà còn góp phần tối ưu hóa chi phí năng lượng.",
+      title: "Reducing Emissions and Using Renewable Energy",
+      text: "We are committed to minimizing carbon emissions and increasing the use of renewable energy in pursuit of our net-zero target. These initiatives not only help protect the environment but also contribute to optimizing energy costs.",
       href: "/services",
     },
     {
       id: 2,
       image: "sus2.jpg",
-      title: "Tiết kiệm tài nguyên và giảm thiểu chất thải",
-      text: "NewWorld CIC đầu tư vào các sáng kiến và quy trình nhằm giảm chất thải và tiết kiệm tài nguyên tự nhiên. Chúng tôi cũng tạo điều kiện cho nhân viên tham gia vào các hoạt động bảo vệ môi trường, nâng cao ý thức bảo vệ hành tinh.",
+      title: "Resource Conservation and Waste Reduction",
+      text: "New World CIC invests in initiatives and processes to reduce waste and conserve natural resources. We also encourage our employees to participate in environmental protection activities, fostering a collective awareness of safeguarding our planet.",
       href: "/about",
     },
   ],
 };
 export const featureSeven1En = {
-  title1: "Trách nhiệm Xã hội",
+  title1: "Social Responsibility",
   text1:
-    "New World CIC cam kết xây dựng một xã hội công bằng và tạo ra giá trị lâu dài cho cộng đồng:",
+    "New World CIC is committed to building an equitable society and creating long-term value for the community",
   features1: [
     {
       id: 1,
       image: "sus1.jpg",
-      title: "Thúc đẩy tài chính toàn diện",
-      text: "Chúng tôi phát triển các giải pháp và dịch vụ tín dụng nhằm giúp đỡ những người không có hồ sơ tín dụng hoặc gặp khó khăn trong tiếp cận tài chính. Bằng cách cải thiện hồ sơ tín dụng, NewWorld CIC tạo điều kiện cho mọi người dễ dàng tiếp cận nguồn vốn và các sản phẩm tài chính khác.",
+      title: "Promoting Financial Inclusion",
+      text: "We develop credit solutions and services to assist those without credit histories or those struggling to access financial resources. By enhancing credit profiles, NewWorld CIC enables broader access to capital and financial products.",
       href: "/services",
     },
     {
       id: 2,
       image: "sus2.jpg",
-      title: "Hỗ trợ phát triển cộng đồng",
-      text: "Chúng tôi luôn đồng hành cùng các tổ chức cộng đồng để nâng cao nhận thức về quản lý tài chính cá nhân, đồng thời đóng góp vào các chương trình giáo dục tài chính, giúp mọi người quản lý tài sản hiệu quả hơn.",
+      title: "Community Development Support",
+      text: "We actively partner with community organizations to enhance awareness of personal financial management, while also contributing to financial education programs, helping individuals manage their assets more effectively.",
       href: "/about",
     },
     {
       id: 3,
       image: "sus3.jpg",
-      title: "Môi trường làm việc bình đẳng và hòa nhập",
-      text: "NewWorld CIC luôn tạo ra môi trường làm việc đa dạng và hòa nhập, thúc đẩy sự phát triển cá nhân và bình đẳng trong cơ hội. Tất cả nhân viên đều được khuyến khích và hỗ trợ để đạt được tiềm năng tối đa của mình.",
+      title: "Equal and Inclusive Workplace",
+      text: "At New World CIC, we foster a diverse and inclusive work environment, promoting personal growth and equality of opportunity. Every employee is encouraged and supported to reach their maximum potential.",
       href: "/about",
     },
   ],
 };
 export const featureSeven2En = {
-  title2: "Quản trị Minh bạch và Trách nhiệm",
+  title2: "Transparent & Responsible Governance",
   text2:
-    "New World CIC xây dựng một nền tảng quản trị công ty vững mạnh, minh bạch và trách nhiệm",
+    "New World CIC builds a robust corporate governance framework that emphasizes transparency and accountability",
   features2: [
     {
       id: 1,
       image: "sus2.jpg",
-      title: "Minh bạch và liêm chính",
-      text: "Chúng tôi tuân thủ nghiêm ngặt các quy định về quản lý rủi ro và đảm bảo tính minh bạch trong mọi hoạt động. Tất cả quyết định của công ty đều được thực hiện trên cơ sở bảo vệ lợi ích của khách hàng, đối tác và cổ đông.",
+      title: "Transparency and Integrity",
+      text: "We strictly adhere to risk management regulations and ensure transparency in all of our operations. Every decision at New World CIC is made to protect the interests of our clients, partners, and shareholders.",
       href: "/services",
     },
     {
       id: 2,
       image: "sus3.jpg",
-      title: "An toàn dữ liệu và bảo vệ quyền riêng tư",
-      text: "Bảo mật thông tin là ưu tiên hàng đầu của NewWorld CIC. Chúng tôi áp dụng các tiêu chuẩn bảo mật cao nhất và tuân thủ các quy định pháp luật nhằm đảm bảo an toàn cho dữ liệu khách hàng. Đội ngũ nhân viên của chúng tôi được huấn luyện chuyên sâu về bảo mật, để luôn đảm bảo dữ liệu được bảo vệ chặt chẽ.",
+      title: "Data Security and Privacy Protection",
+      text: "Information security is our top priority. We adhere to the highest security standards and comply with legal regulations to ensure the safety of customer data. Our team undergoes extensive security training to ensure that data is rigorously protected.",
       href: "/about",
     },
     {
       id: 3,
       image: "sus1.jpg",
-      title: "Cấu trúc quản trị bền vững",
-      text: "Hội đồng quản trị của NewWorld CIC bao gồm các chuyên gia uy tín trong lĩnh vực tài chính, công nghệ, và quản trị, với mục tiêu dẫn dắt công ty phát triển minh bạch và hiệu quả. Chúng tôi luôn sẵn sàng đáp ứng các yêu cầu quản lý nghiêm ngặt để đảm bảo NewWorld CIC là đơn vị uy tín và đáng tin cậy.",
+      title: "Sustainable Governance Structure",
+      text: "The Board of Directors at New World CIC includes esteemed experts in finance, technology, and governance, with the mission to lead the company towards transparent and effective growth. We are committed to meeting strict governance requirements to ensure that NewWorld CIC remains a trusted and reputable organization.",
       href: "/about",
     },
   ],

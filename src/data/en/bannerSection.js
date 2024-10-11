@@ -4,8 +4,8 @@ export const bannerTwo = [
   {
     id: 1,
     bg: "2.jpg",
-    subtitle: "Get your FREE",
-    title: "New World \nCredit Score",
+    subtitle: "Welcome to ",
+    title: "New World \nCredit Information\n Joint Stock Company",
   },
 ];
 

@@ -21,7 +21,7 @@ const Sustainability = () => {
       <HeaderOne lan={locale} />
       <MobileMenu lan={locale} />
       <SearchPopup lan={locale} />
-      <PageBanner title={title} page={title} />
+      <PageBanner lan={locale} title={title} page={title} />
       <VideoOne lan={locale} />
       <FeatureSeven lan={locale} />
       <CallToSectionTwo className="alternate" lan={locale} />

@@ -61,11 +61,28 @@ const navItems = [
     id: 2,
     name: "About Us",
     href: "/about",
+    subNavItems: [
+      {
+        id: 1,
+        name: "Who we are ",
+        href: "/about",
+      },
+      {
+        id: 2,
+        name: "Vision",
+        href: "/vision",
+      },
+      {
+        id: 3,
+        name: "Sustainable Development",
+        href: "/sustainability",
+      },
+    ],
   },
 
   {
     id: 3,
-    name: "Services",
+    name: "Solutions",
     href: "/services",
   },
   {

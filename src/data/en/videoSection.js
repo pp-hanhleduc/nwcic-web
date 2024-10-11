@@ -1,6 +1,6 @@
 import bg2 from "@/images/update-01-10-2021/background/video-seven-1-1.jpg";
 import bg from "@/images/update-01-10-2021/background/video-six-bg-1.jpg";
-import image from "@/images/update-26-02-2021/resources/video-2-1.jpg";
+import image from "@/images/resource/video-2-1.jpg";
 
 export const videoSix = {
   bg,
@@ -18,9 +18,9 @@ export const videoSeven = {
 export const videoOneEn = {
   image,
   videoId: "y2Eqx6ys1hQ",
-  title: "Linoor is trusted by millions of customers",
+  title: "A Sustainable Future with New World CIC",
   text1:
-    "Lorem ipsum dolors sit amet elit magnis amet ultrices purusrfed aliquet. There are many variations of passages of available but the majority have suffered.",
+    "New World CIC is committed to continuously improving and implementing ESG (Environmental, Social, and Governance) standards to build a transparent, secure, and environmentally friendly financial ecosystem. ",
   text2:
-    "Tincidunt elit magnis nulla facilisis sagittis maecenas. Sapien nunced amet ultrices, dolores sit ipsum velit purus aliquet.",
+    "This commitment is our promise to foster sustainable development and contribute to the shared prosperity of the community and the economy.",
 };
