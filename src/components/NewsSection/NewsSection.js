@@ -34,7 +34,7 @@ const NewsSection = ({
         </Row>
         {isMore && (
           <div className="more-box">
-            <Link href="/blog" className="theme-btn btn-style-one">
+            <Link href="" className="theme-btn btn-style-one">
               <i className="btn-curve"></i>
               <span className="btn-title">{buttonText}</span>
             </Link>
