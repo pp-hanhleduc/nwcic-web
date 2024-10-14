@@ -2657,10 +2657,7 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   -webkit-transform: scale(1);
   transform: scale(1);
 }
@@ -3701,9 +3698,8 @@ img.lazy-image.loaded {
 .services-section {
   position: relative;
   padding: 120px 0px 90px;
-  background: var(--thm-black) url(../assets/images/background/pattern-1.png)
-    center top repeat;
-  color: #ffffff;
+
+  color:  #ffffff;
 }
 
 .services-section .sec-title {
@@ -3711,7 +3707,7 @@ img.lazy-image.loaded {
 }
 
 .services-section .sec-title h2 {
-  color: #ffffff;
+  color:var(--thm-black);
 }
 
 .services-section .sec-title .lower-text {
@@ -3958,10 +3954,6 @@ img.lazy-image.loaded {
 .about-section .image-column .image-block img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
   border-radius: 7px;
 }
 
@@ -4118,10 +4110,7 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
 }
 
 .live-section .main-image-box .inner {
@@ -4982,10 +4971,6 @@ img.lazy-image.loaded {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
   opacity: 0.3;
 }
 
@@ -5230,10 +5215,7 @@ img.lazy-image.loaded {
 .trusted-section .featured-block-two .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   border-radius: 7px;
 }
 
@@ -5309,20 +5291,14 @@ img.lazy-image.loaded {
 .team-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-radius: 7px;
 }
 
 .team-block .inner-box:hover .image-box img {
-  -webkit-filter: grayscale(0%);
-  -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
+
 }
 
 .team-block .image-box .social-links {
@@ -5463,8 +5439,7 @@ img.lazy-image.loaded {
 
 .team-card-three__image img {
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+
 }
 
 .team-card-three__hover,
@@ -5614,10 +5589,7 @@ img.lazy-image.loaded {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   opacity: 0.3;
 }
 
@@ -5864,10 +5836,6 @@ img.lazy-image.loaded {
 .agency-section .featured-block .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
   border-radius: 7px;
 }
 
@@ -6033,10 +6001,6 @@ img.lazy-image.loaded {
 .agency-section .featured-block-two .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
   border-radius: 50%;
 }
 
@@ -6116,10 +6080,10 @@ img.lazy-image.loaded {
 .news-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(50%);
+  -ms-filter: grayscale(50%);
+  -moz-filter: grayscale(50%);
+  filter: grayscale(50%);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   border-radius: 7px;
@@ -9296,10 +9260,6 @@ img.lazy-image.loaded {
 .get-quote-section .featured-block .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
   border-radius: 7px;
 }
 
@@ -9348,10 +9308,7 @@ img.lazy-image.loaded {
 .get-quote-section .counter .counter-image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   border-radius: 7px;
 }
 
@@ -9467,10 +9424,7 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   opacity: 0.1;
 }
 
@@ -9698,10 +9652,6 @@ img.lazy-image.loaded {
 .discover-block .image-box img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border-radius: 7px;
@@ -9908,10 +9858,7 @@ img.lazy-image.loaded {
   display: block;
   width: auto;
   max-width: none;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border-radius: 7px;
@@ -10297,10 +10244,7 @@ img.lazy-image.loaded {
 .about-section-two .image-box .image img {
   display: block;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+
   border-radius: 7px;
 }
 
@@ -11044,15 +10988,15 @@ img.lazy-image.loaded {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+
   z-index: 0;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(50%);
+  -ms-filter: grayscale(50%);
+  -moz-filter: grayscale(50%);
+  filter: grayscale(50%);
 }
 
 .page-banner .shape-1 {

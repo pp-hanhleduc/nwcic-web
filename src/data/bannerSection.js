@@ -3,7 +3,7 @@ import bg from "@/images/main-slider/banner-bg-shape-3.png";
 export const bannerTwo = [
   {
     id: 1,
-    bg: "2.jpg",
+    bg: "21.jpg",
     subtitle: "Chào mừng bạn đến với",
     title: "Công ty \n Thông tin Tín dụng \n New World CIC",
   },

@@ -7,7 +7,6 @@ import { Col, Image, Row } from "react-bootstrap";
 import TextSplit from "../Reuseable/TextSplit";
 
 const AboutSection = ({ lan = "vi" }) => {
-  console.log("--------", lan);
   const { image1, image2, title, text1, text2, textList, since } =
     lan === "vi" ? aboutSectionOne : aboutSectionOneEn;
   const buttonText = lan === "vi" ? "Tìm hiểu ngay" : "Discover more";

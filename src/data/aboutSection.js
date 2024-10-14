@@ -203,7 +203,7 @@ export const aboutTen = {
     {
       id: 1,
       title: "Tầm nhìn",
-      text: "Trở thành nhà cung cấp dịch vụ thông tin tín dụng hàng đầu tại Việt Nam, mang đến sự minh bạch, những hiểu biết cần thiếtvà hiệu quả tài chính để thúc đẩy sự phát triển bền vững trong bối cảnh tài chính không ngừng thay đổi.",
+      text: "Trở thành nhà cung cấp dịch vụ thông tin tín dụng hàng đầu tại Việt Nam, mang đến sự minh bạch, những hiểu biết cần thiết và hiệu quả tài chính để thúc đẩy sự phát triển bền vững trong bối cảnh tài chính không ngừng thay đổi.",
     },
     {
       id: 2,
