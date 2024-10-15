@@ -19,7 +19,8 @@ const ServicesSectionThree = ({ lan = "vi", className = "" }) => {
       <div className="auto-container">
         <div className="sec-title centered">
           <h2>
-            {title} <span className="dot">.</span>
+            {title}
+            <span className="dot">.</span>
           </h2>
         </div>
         <div className="services">

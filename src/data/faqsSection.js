@@ -33,7 +33,7 @@ const faqs = [
   {
     id: 7,
     title: "Khi nào tôi nhận được cảnh báo tín dụng?",
-    text: "TransUnion sẽ gửi cho bạn cảnh báo tín dụng khi có thay đổi quan trọng trong thông tin tín dụng của bạn",
+    text: "New World CIC sẽ gửi cho bạn cảnh báo tín dụng khi có thay đổi quan trọng trong thông tin tín dụng của bạn",
   },
 ];
 

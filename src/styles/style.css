@@ -7376,7 +7376,7 @@ img.lazy-image.loaded {
 }
 
 .service-block-two .inner-box:hover:before {
-  background: var(--thm-black);
+  background: #2e2b63;
   bottom: -10px;
 }
 

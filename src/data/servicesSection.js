@@ -8,14 +8,14 @@ const services = [
   {
     id: 2,
     icon: "flaticon-digital",
-    title: "Doanh nghiệp \n Vừa và Nhỏ",
+    title: "Doanh nghiệp",
     text: "Các sản phẩm hỗ trợ các doanh nghiệp vừa và nhỏ đánh giá mức độ tín nhiệm của các đối tác, khách hàng và nhà cung cấp.",
   },
   {
     id: 3,
     icon: "flaticon-instant-camera",
-    title: "Doanh nghiệp lớn",
-    text: "Giải pháp tín dụng toàn diện, cung cấp thông tin chi tiết về xu hướng thị trường, phân tích đối thủ cạnh tranh.",
+    title: "Tổ chức Tín dụng",
+    text: "Giải pháp đánh giá và theo dõi khả năng chi trả của cá nhân, doanh nghiệp từ New World CIC mang đến nhiều lợi ích thiết thực cho các tổ chức tài chính, giúp tối ưu hóa quy trình và giảm thiểu rủi ro",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const servicesSection = {
 };
 
 export const servicesSectionThree1 = {
-  title: "Giải pháp toàn diện",
+  title: "Giải pháp toàn diện cho từng nhóm đối tượng",
   services,
 };
 

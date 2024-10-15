@@ -26,7 +26,7 @@ const settings = {
 };
 
 const BannerOne = ({ lan = "vi" }) => {
-  console.log("ngon ngu ---- ", lan);
+  
   const { dayRange, timeRange, socials, banners } =
     lan === "vi" ? bannerOne : bannerOneEn;
 
