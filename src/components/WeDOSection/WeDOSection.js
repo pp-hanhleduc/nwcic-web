@@ -26,7 +26,6 @@ const WeDOSection = ({ lan = "vi" }) => {
               <div className="sec-title">
                 <h2>
                   <TextSplit text={title} />
-                  <span className="dot">.</span>
                 </h2>
               </div>
               <div className="featured-block clearfix">

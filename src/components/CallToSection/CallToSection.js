@@ -14,10 +14,9 @@ const CallToSection = ({ lan = "vi", className = "", container = true }) => {
           <div className="shape-1 animated slideInRight"></div>
           <div className="shape-2 animated fadeInDown"></div>
           <div className={container ? "" : "auto-container clearfix"}>
-            <h2>{str}</h2>
+            <h3>{str}</h3>
             <div className="link-box">
               <Link href="/contact" className="theme-btn btn-style-two">
-                <i className="btn-curve"></i>
                 <span className="btn-title">{buttonText}</span>
               </Link>
             </div>

@@ -16,8 +16,7 @@ const LiveSection = ({ className = "", lan = "vi" }) => {
         <div className="auto-container">
           <div className="sec-title centered">
             <h2>
-              {secTitle}
-              <span className="dot">.</span>
+              <TextSplit text={secTitle} />
             </h2>
           </div>
           <div className="main-image-box">
