@@ -60,7 +60,8 @@ const navItems = [
   {
     id: 2,
     name: "Giới thiệu",
-    href: "/about",
+    href: "",
+    type: 1,
     subNavItems: [
       {
         id: 1,
@@ -84,22 +85,50 @@ const navItems = [
     id: 3,
     name: "Giải pháp",
     href: "/services",
+    type: 2,
+    subNavItems: [
+      {
+        id: 4,
+        name: "Cá nhân",
+        href: "/test",
+        subItems: [
+          {
+            id: 41,
+            name: "Cá nhân 1",
+            href: "/test5",
+          },
+        ],
+      },
+      {
+        id: 5,
+        name: "Doanh nghiệp",
+        href: "/test1",
+      },
+      {
+        id: 6,
+        name: "Tổ chức Tài chính",
+        href: "/test2",
+      },
+    ],
   },
   {
     id: 4,
     name: "FAQ",
     href: "/faqs",
+    type: 1,
   },
 
   {
     id: 5,
     name: "Tin tức",
     href: "/blog-grid",
+    type: 1,
   },
   {
     id: 6,
     name: "Liên hệ",
     href: "/contact",
+    type: 1,
   },
 ];
 

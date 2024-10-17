@@ -49,7 +49,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
   const { pathname } = useRouter();
   const { menuStatus, toggleMenu, currentActive } = useRootContext();
 
-  const { name, href, subNavItems = [] } = navItem;
+  const { name, href, subNavItems = [], type } = navItem;
   const subHref = subNavItems.map((item) => item.href);
   const current = !onePage
     ? pathname === href || subHref.includes(pathname)
@@ -67,7 +67,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
         href={href}
         onClick={() => mobile && href.includes("#") && toggleMenu()}
       >
-        {name}{" "}
+        {name}
         {subNavItems.length > 0 && (
           <div
             onClick={handleActive}
