@@ -5,7 +5,7 @@ export const bannerTwo = [
     id: 1,
     bg: "21.jpg",
     subtitle: "Chào mừng bạn đến với",
-    title: "Công ty \n Thông tin Tín dụng \n New World",
+    title: "Công ty \n Thông tin Tín dụng \n Thế giới mới",
   },
 ];
 
