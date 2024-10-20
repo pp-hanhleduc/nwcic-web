@@ -60,7 +60,6 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
     e.preventDefault();
     setActive((preActive) => !preActive);
   };
-
   return (
     <li className={`dropdown${current ? " current" : ""}`}>
       <Link

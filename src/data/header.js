@@ -90,24 +90,46 @@ const navItems = [
       {
         id: 4,
         name: "Cá nhân",
-        href: "/test",
+        href: "",
         subItems: [
           {
             id: 41,
-            name: "Cá nhân 1",
-            href: "/test5",
+            name: "Điểm tín dụng cá nhân",
+            href: "/personal-credit-score",
+          },
+          {
+            id: 42,
+            name: "Báo cáo tín dụng cá nhân",
+            href: "/personal-credit-report",
+          },
+          {
+            id: 43,
+            name: "Xác minh danh tính",
+            href: "/personal-identity",
           },
         ],
       },
       {
         id: 5,
         name: "Doanh nghiệp",
-        href: "/test1",
+        href: "/enterprise-credit-report",
       },
       {
         id: 6,
         name: "Tổ chức Tài chính",
-        href: "/test2",
+        href: "",
+        subItems: [
+          {
+            id: 61,
+            name: "Đánh giá chi trả cá nhân",
+            href: "/affordability-personal",
+          },
+          {
+            id: 62,
+            name: "Đánh giá chi trả doanh nghiệp",
+            href: "/affordability-enterprise",
+          },
+        ],
       },
     ],
   },

@@ -23822,7 +23822,7 @@ img.lazy-image.loaded {
   display: inline-block;
   margin-bottom: 50px;
   border-radius: 8px;
-  background-color: var(--thm-black);
+  background-color: var(--thm-gray);
 }
 
 @media (min-width: 992px) {
@@ -23912,7 +23912,7 @@ img.lazy-image.loaded {
   color: var(--thm-text);
   line-height: 2.125em;
   font-weight: 400;
-  margin-top: 34px;
+  text-align: justify;
   margin-bottom: 36px;
 }
 
@@ -23922,6 +23922,7 @@ img.lazy-image.loaded {
   font-size: 16px;
   color: var(--thm-text);
   font-weight: 400;
+  text-align: justify;
 }
 
 .process-one__list li > i {
