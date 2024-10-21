@@ -90,7 +90,7 @@ const navItems = [
       {
         id: 4,
         name: "Cá nhân",
-        href: "",
+        href: "/personal-credit-score",
         subItems: [
           {
             id: 41,
@@ -117,7 +117,7 @@ const navItems = [
       {
         id: 6,
         name: "Tổ chức Tài chính",
-        href: "",
+        href: "/affordability-personal",
         subItems: [
           {
             id: 61,

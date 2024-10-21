@@ -4,24 +4,21 @@ const services = [
     icon: "flaticon-vector",
     title: "Cá nhân",
     text: "Các sản phẩm được thiết kế để giúp cá nhân quản lý hồ sơ tín dụng cá nhân, theo dõi điểm tín dụng và nhận cảnh báo về những thay đổi về tín dụng.",
+    href: "/personal-credit-score",
   },
   {
     id: 2,
     icon: "flaticon-digital",
     title: "Doanh nghiệp",
     text: "Các sản phẩm hỗ trợ các doanh nghiệp vừa và nhỏ đánh giá mức độ tín nhiệm của các đối tác, khách hàng và nhà cung cấp.",
+    href: "/enterprise-credit-report",
   },
   {
     id: 3,
     icon: "flaticon-instant-camera",
     title: "Tổ chức Tín dụng",
     text: "Giải pháp đánh giá và theo dõi khả năng chi trả của cá nhân, doanh nghiệp từ New World CIC mang đến nhiều lợi ích thiết thực cho các tổ chức tài chính, giúp tối ưu hóa quy trình và giảm thiểu rủi ro",
-  },
-  {
-    id: 4,
-    icon: "flaticon-monitor",
-    title: "Giải pháp \n Theo yêu cầu",
-    text: "Các giải pháp thông tin tín dụng tùy chỉnh được thiết kế để đáp ứng nhu cầu cụ thể của khách hàng.",
+    href: "/affordability-personal",
   },
 ];
 
