@@ -102,7 +102,7 @@ export const personalCreditReportData = [
     image: "personal2.png",
     title:
       "Sự ảnh hưởng của sai sót trong báo cáo tín dụng đến đơn xin tín dụng",
-    text: "Sai sót trong báo cáo tín dụng có thể gây ra nhiều hậu quả tiêu cực đối với đơn xin tín dụng vốn của cá nhân. Đầu tiên, thông tin không chính xác, như việc ghi nhận thanh toán trễ sai, có thể dẫn đến việc từ chối đơn vay. Thứ hai, điểm tín dụng bị ảnh hưởng bởi các sai sót có thể khiến tổ chức tín dụngáp dụng lãi suất cao hơn, từ đó làm tăng chi phí vay mượn.",
+    text: "Sai sót trong báo cáo tín dụng có thể gây ra nhiều hậu quả tiêu cực đối với đơn xin tín dụng vốn của cá nhân. Đầu tiên, thông tin không chính xác, như việc ghi nhận thanh toán trễ sai, có thể dẫn đến việc từ chối đơn vay. Thứ hai, điểm tín dụng bị ảnh hưởng bởi các sai sót có thể khiến tổ chức tín dụng áp dụng lãi suất cao hơn, từ đó làm tăng chi phí vay mượn.",
     lists: [
       "Sai sót trong báo cáo còn có thể kéo dài quá trình phê duyệt đơn vay do cần thêm thời gian để xác minh thông tin. Điều này không chỉ gây trì hoãn mà còn làm mất nhiều thời gian cho người vay trong việc tranh chấp và sửa đổi các thông tin sai lệch. Nếu không được khắc phục kịp thời, sai sót trong lịch sử thanh toán có thể khiến tổ chức tín dụng đánh giá người vay là rủi ro cao hơn so với thực tế.",
       "Vì vậy, để đảm bảo đơn xin tín dụng diễn ra thuận lợi, cá nhân nên kiểm tra báo cáo tín dụng định kỳ và nhanh chóng sửa chữa các sai sót nếu có. Điều này giúp tránh những trở ngại không đáng có và cải thiện khả năng tiếp cận các điều kiện vay tốt hơn.",
