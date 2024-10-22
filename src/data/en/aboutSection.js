@@ -15,7 +15,7 @@ import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 export const aboutSectionOneEn = {
   image1,
   image2,
-  title: "We’re the best credit agency in Vietnam",
+  title: "We are one of the leading credit information providers in Vietnam",
   text1:
     "Our expertise in the domestic landscape allows us to provide insights that are highly relevant and actionable for businesses operating within Vietnam.",
   text2:
