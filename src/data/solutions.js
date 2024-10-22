@@ -5,7 +5,7 @@ export const personalCreditScoreData = [
     title: "Điểm tín dụng cá nhân là gì?",
     text: "Điểm tín dụng cá nhân đánh giá mức độ đáng tin cậy của một cá nhân trong việc quản lý và trả các khoản nợ. Điểm này phản ánh lịch sử tín dụng của cá nhân, dựa trên các yếu tố như tổng số và loại khoản vay đã có, lịch sử thanh toán các hóa đơn, tổng số dư nợ hiện tại, và thời gian sử dụng tín dụng.",
     lists: [
-      "Các ngân hàng và tổ chức tín dụngthường sử dụng điểm tín dụng để xác định khả năng và mức độ rủi ro liên quan đến việc cung cấp tín dụng cho cá nhân đó.",
+      "Các ngân hàng và tổ chức tín dụng thường sử dụng điểm tín dụng để xác định khả năng và mức độ rủi ro liên quan đến việc cung cấp tín dụng cho cá nhân đó.",
       "Một điểm tín dụng cao báo hiệu rằng cá nhân đó có trách nhiệm trong việc quản lý nợ và thường xuyên thanh toán đúng hạn, điều này có thể mở ra cơ hội tiếp cận các khoản vay với lãi suất thấp hơn và điều kiện tài chính ưu đãi hơn.",
       "Ngược lại, một điểm tín dụng thấp có thể tăng chi phí vay và làm khó khăn hơn trong việc nhận được sự chấp thuận cho các khoản vay.",
     ],
@@ -16,8 +16,8 @@ export const personalCreditScoreData = [
     title: "Tầm quan trọng của điểm tín dụng cá nhân",
     text: "Ở một số nước trên thế giới, điểm tín dụng cá nhân đóng một vai trò trung tâm trong hệ thống tài chính toàn cầu, vì nó là thước đo độ tin cậy tài chính của cá nhân. Khả năng tiếp cận tín dụng, điều kiện vay mượn, và cả các dịch vụ cơ bản như thuê nhà và hợp đồng điện thoại đều bị ảnh hưởng bởi điểm số này. ",
     lists: [
-      "Điểm tín dụng không chỉ giúp các tổ chức tín dụngđánh giá mức độ rủi ro khi cho vay mà còn ảnh hưởng trực tiếp đến lãi suất mà cá nhân phải trả.",
-      " Người có điểm tín dụng cao thường nhận được các khoản vay với lãi suất thấp hơn, điều này không chỉ giúp tiết kiệm chi phí mà còn cải thiện khả năng tiếp cận tài chính.",
+      "Điểm tín dụng không chỉ giúp các tổ chức tín dụng đánh giá mức độ rủi ro khi cho vay mà còn ảnh hưởng trực tiếp đến lãi suất mà cá nhân phải trả.",
+      "Người có điểm tín dụng cao thường nhận được các khoản vay với lãi suất thấp hơn, điều này không chỉ giúp tiết kiệm chi phí mà còn cải thiện khả năng tiếp cận tài chính.",
     ],
   },
   {
