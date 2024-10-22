@@ -8,7 +8,7 @@ import image9 from "@/images/update-01-10-2021/resources/about-nine-1-1.png";
 import image6 from "@/images/resource/featured-image-1.jpg";
 import image7 from "@/images/resource/featured-image-2.jpg";
 import image8 from "@/images/update-01-10-2021/resources/about-six-1-1.jpg";
-import image4 from "@/images/update-1-12-2020/resources/about-1-1.jpg";
+import image4 from "@/images/resource/solutions/report5.png";
 import image5 from "@/images/update-1-12-2020/resources/signture-1-1.png";
 import image13 from "@/images/update-26-02-2021/resources/about-me-1.jpg";
 

@@ -1,5 +1,5 @@
 import PageBanner from "@/components/BannerSection/PageBanner";
-import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
+import CallToSection from "@/components/CallToSection/CallToSection";
 import FaqsSection from "@/components/FaqsSection/FaqsSection";
 import GetQuoteThree from "@/components/GetQuote/GetQuoteThree";
 import HeaderOne from "@/components/Header/HeaderOne";
@@ -13,15 +13,15 @@ import { useRouter } from "next/router";
 const Faqs = () => {
   const { locale } = useRouter();
   return (
-    <Layout pageTitle="FAQ">
-      <Style />
+    <Layout pageTitle="FAQ" lan={locale}>
+      <Style lan={locale} />
       <HeaderOne lan={locale} />
       <MobileMenu lan={locale} />
       <SearchPopup lan={locale} />
       <PageBanner lan={locale} title="FAQ" />
       <FaqsSection lan={locale} />
       <GetQuoteThree lan={locale} />
-      <CallToSectionTwo lan={locale} className="alternate" />
+      <CallToSection lan={locale} className="alternate" />
       <MainFooter lan={locale} />
     </Layout>
   );

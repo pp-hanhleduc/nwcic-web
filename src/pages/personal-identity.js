@@ -9,22 +9,29 @@ import Individual2 from "@/components/Solutions/Individual2";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
-
+import { useRouter } from "next/router";
 const PersonalIdentity = () => {
+  const { locale } = useRouter();
+  const title =
+    locale === "vi"
+      ? "Xác minh danh tính cá nhân"
+      : "Personal Identity Verification";
+  const parentTitle = locale === "vi" ? "Giải pháp" : "Solutions";
   return (
-    <Layout pageTitle="Process Page">
-      <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
+    <Layout lan={locale} pageTitle={title}>
+      <Style lan={locale} />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
       <PageBanner
-        title="Xác minh danh tính"
-        page="Xác minh danh tính"
-        parent="Giải pháp"
+        lan={locale}
+        title={title}
+        page={title}
+        parent={parentTitle}
       />
-      <Individual2 />
-      <CallToSection />
-      <MainFooter normalPadding={false} />
+      <Individual2 lan={locale} />
+      <CallToSection lan={locale} />
+      <MainFooter normalPadding={false} lan={locale} />
     </Layout>
   );
 };

@@ -367,7 +367,7 @@ export const institutionEnterpriseData = [
   },
   {
     id: 3,
-    image: "personal6.png",
+    image: "report5.png",
     title:
       "Những thách thức mà các tổ chức tín dụng gặp phải khi đánh giá và theo dõi khả năng chi trả của doanh nghiệp",
     text: "Việc đánh giá và theo dõi khả năng chi trả của doanh nghiệp là một công việc phức tạp, đòi hỏi các tổ chức tín dụng phải đối mặt với nhiều khó khăn. Quá trình này không chỉ cần thu thập và xử lý một khối lượng thông tin lớn mà còn phải đối phó với những biến động kinh tế thường xuyên.",
@@ -381,7 +381,7 @@ export const institutionEnterpriseData = [
   },
   {
     id: 4,
-    image: "personal6.png",
+    image: "report3.png",
     title:
       "Giải pháp Đánh giá khả năng chi trả doanh nghiệp (BAA-Business Affordability Assessment) của New World CIC",
     text: "Trong bối cảnh kinh tế đầy biến động, việc đánh giá và theo dõi khả năng chi trả của doanh nghiệp là yếu tố quan trọng đối với các tổ chức tín dụng. NewWorld CIC cung cấp những giải pháp toàn diện giúp các tổ chức tài chính tiết kiệm chi phí, nâng cao hiệu quả quản lý rủi ro và đảm bảo tính an toàn trong hoạt động tín dụng.",

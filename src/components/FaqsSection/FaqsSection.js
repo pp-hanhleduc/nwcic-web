@@ -8,7 +8,7 @@ const Faqs = ({ allFaqs = {} }) => {
   const [current, setCurrent] = useState(defaultCurrent);
 
   return (
-    <Col lg={6} md={12} sm={12} className="faq-block">
+    <Col lg={12} md={12} sm={12} className="faq-block">
       <ul className="accordion-box clearfix">
         {faqs.map(({ id, title, text }) => (
           <li

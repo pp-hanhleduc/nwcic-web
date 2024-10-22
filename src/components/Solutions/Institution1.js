@@ -1,10 +1,17 @@
 import { institutionPersonalData, institutionTabData } from "@/data/solutions";
+import {
+  institutionPersonalDataEn,
+  institutionTabDataEn,
+} from "@/data/en/solutions";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const Institution1 = () => {
+const Institution1 = ({ lan = "vi" }) => {
   const [current, setCurrent] = useState("p-tab-2");
-
+  const myInstitutionTabData =
+    lan === "vi" ? institutionTabData : institutionTabDataEn;
+  const myInstitutionPersonalData =
+    lan === "vi" ? institutionPersonalData : institutionPersonalDataEn;
   return (
     <section className="process-one">
       <div className="project-tab">
@@ -12,7 +19,7 @@ const Institution1 = () => {
           <div className="tab-btns-box">
             <div className="tabs-header">
               <ul className="product-tab-btns clearfix">
-                {institutionTabData.tabButton.map(
+                {myInstitutionTabData.tabButton.map(
                   ({ id, name, tab, href, count }) => (
                     <li
                       key={id}
@@ -29,7 +36,7 @@ const Institution1 = () => {
         </div>
       </div>
       <div className="auto-container">
-        {institutionPersonalData.map(({ id, image, title, text, lists }) => (
+        {myInstitutionPersonalData.map(({ id, image, title, text, lists }) => (
           <Row key={id}>
             <Col md={12} lg={6} className="process-one__image__column">
               <div className="process-one__image animated fadeInLeft">
@@ -49,16 +56,17 @@ const Institution1 = () => {
                   </div>
                 )}
                 {text && (
-                  <p className="process-one__summery">
-                    <span>{text}</span>
-                  </p>
+                  <p
+                    className="process-one__summery"
+                    dangerouslySetInnerHTML={{ __html: text }}
+                  />
                 )}
 
                 <ul className="list-unstyled process-one__list">
                   {lists.map((text, i) => (
                     <li key={i}>
                       <i className="flaticon-check"></i>
-                      {text}
+                      <div dangerouslySetInnerHTML={{ __html: text }} />
                     </li>
                   ))}
                 </ul>

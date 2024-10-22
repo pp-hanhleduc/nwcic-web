@@ -27,7 +27,7 @@ const SubItem = ({ subItem = {} }) => {
             onClick={handleActive}
             className={`dropdown-btn${active ? " open" : ""}`}
           >
-            <span className="fa fa-angle-right"></span>
+            <span className="icon fa fa-angle-right"></span>
           </div>
         )}
       </Link>

@@ -9,22 +9,27 @@ import Individual1 from "@/components/Solutions/Individual1";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
-
+import { useRouter } from "next/router";
 const PersonalCreditReport = () => {
+  const { locale } = useRouter();
+  const title =
+    locale === "vi" ? "Báo cáo tín dụng cá nhân" : "Personal Credit Report";
+  const parentTitle = locale === "vi" ? "Giải pháp" : "Solutions";
   return (
-    <Layout pageTitle="Process Page">
-      <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
+    <Layout lan={locale} pageTitle={title}>
+      <Style lan={locale} />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
       <PageBanner
-        title="Báo cáo tín dụng cá nhân"
-        page="Báo cáo tín dụng cá nhân"
-        parent="Giải pháp"
+        title={title}
+        page={title}
+        parent={parentTitle}
+        lan={locale}
       />
-      <Individual1 />
-      <CallToSection />
-      <MainFooter normalPadding={false} />
+      <Individual1 lan={locale} />
+      <CallToSection lan={locale} />
+      <MainFooter normalPadding={false} lan={locale} />
     </Layout>
   );
 };

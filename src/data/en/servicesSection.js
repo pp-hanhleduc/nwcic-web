@@ -8,20 +8,14 @@ const services = [
   {
     id: 2,
     icon: "flaticon-digital",
-    title: "Small & Medium \n Enterprises",
-    text: "Products to support SMEs in assessing the creditworthiness of partners, clients, and suppliers.",
+    title: "Enterprises",
+    text: "Products to support enterprises in assessing the creditworthiness of partners, clients, and suppliers, detailed insights into market trends, competitor analysis.",
   },
   {
     id: 3,
     icon: "flaticon-instant-camera",
-    title: "Large\n Enterprises",
-    text: "Comprehensive credit solutions that provide detailed insights into market trends, competitor analysis.",
-  },
-  {
-    id: 4,
-    icon: "flaticon-monitor",
-    title: "Tailored\nSolutions",
-    text: "Customized credit information solutions designed to meet the specific needs of our clients.",
+    title: "Credit Institutions",
+    text: "Solutions for assessing and monitoring the payment capacity of individuals and businesses brings many practical benefits to financial institutions, helping to optimize processes and minimize risks.",
   },
 ];
 

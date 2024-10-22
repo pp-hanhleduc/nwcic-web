@@ -8,21 +8,28 @@ import Enterprise from "@/components/Solutions/Enterprise";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
-
+import { useRouter } from "next/router";
 const EnterpriseCreditReport = () => {
+  const { locale } = useRouter();
+  const title =
+    locale === "vi"
+      ? "Báo cáo tín dụng doanh nghiệp"
+      : "Enterprose Credit Report";
+  const parentTitle = locale === "vi" ? "Giải pháp" : "Solutions";
   return (
-    <Layout pageTitle="Process Page">
-      <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
+    <Layout lan={locale} pageTitle={title}>
+      <Style lan={locale} />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
       <PageBanner
-        title="Báo cáo tín dụng Doanh nghiệp"
-        page="Báo cáo tín dụng Doanh nghiệp"
-        parent="Giải pháp"
+        title={title}
+        page={title}
+        parent={parentTitle}
+        lan={locale}
       />
-      <Enterprise />
-      <CallToSection />
+      <Enterprise lan={locale} />
+      <CallToSection lan={locale} />
       <MainFooter normalPadding={false} />
     </Layout>
   );

@@ -84,6 +84,52 @@ const navItems = [
     id: 3,
     name: "Solutions",
     href: "/services",
+    subNavItems: [
+      {
+        id: 31,
+        name: "Individuals",
+        href: "/personal-credit-score",
+        subItems: [
+          {
+            id: 311,
+            name: "Personal Credit Score",
+            href: "/personal-credit-score",
+          },
+          {
+            id: 312,
+            name: "Personal Credit Report",
+            href: "/personal-credit-report",
+          },
+          {
+            id: 313,
+            name: "Identity Verification",
+            href: "/personal-identity",
+          },
+        ],
+      },
+      {
+        id: 32,
+        name: "Enterprises",
+        href: "/enterprise-credit-report",
+      },
+      {
+        id: 33,
+        name: "Credit Institutions",
+        href: "/affordability-personal",
+        subItems: [
+          {
+            id: 331,
+            name: "Personal Afordability",
+            href: "/affordability-personal",
+          },
+          {
+            id: 332,
+            name: "Business Afordability",
+            href: "/affordability-enterprise",
+          },
+        ],
+      },
+    ],
   },
   {
     id: 4,

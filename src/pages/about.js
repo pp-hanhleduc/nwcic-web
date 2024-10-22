@@ -28,8 +28,8 @@ const About = () => {
   const { locale } = useRouter();
   const title = locale === "vi" ? "Giới thiệu" : "About Us";
   return (
-    <Layout pageTitle={title}>
-      <Style />
+    <Layout pageTitle={title} lan={locale}>
+      <Style lan={locale} />
       <HeaderOne lan={locale} />
       <MobileMenu lan={locale} />
       <SearchPopup lan={locale} />

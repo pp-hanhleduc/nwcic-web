@@ -8,22 +8,29 @@ import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
 import Institution2 from "@/components/Solutions/Institution2";
-
+import { useRouter } from "next/router";
 const EnterpriseAffordability = () => {
+  const { locale } = useRouter();
+  const title =
+    locale === "vi"
+      ? "Khả năng chi trả doanh nghiệp"
+      : "Business Adffordability";
+  const parentTitle = locale === "vi" ? "Giải pháp" : "Solutions";
   return (
-    <Layout pageTitle="Process Page">
-      <Style />
-      <HeaderOne />
-      <MobileMenu />
-      <SearchPopup />
+    <Layout lan={locale} pageTitle={title}>
+      <Style lan={locale} />
+      <HeaderOne lan={locale} />
+      <MobileMenu lan={locale} />
+      <SearchPopup lan={locale} />
       <PageBanner
-        title="Khả năng chi trả doanh nghiệp"
-        page="Khả năng chi trả doanh nghiệp"
-        parent="Giải pháp"
+        title={title}
+        page={title}
+        parent={parentTitle}
+        lan={locale}
       />
-      <Institution2 />
-      <CallToSection />
-      <MainFooter normalPadding={false} />
+      <Institution2 lan={locale} />
+      <CallToSection lan={locale} />
+      <MainFooter normalPadding={false} lan={locale} />
     </Layout>
   );
 };

@@ -2,12 +2,19 @@ import {
   institutionEnterpriseData,
   institutionTabData,
 } from "@/data/solutions";
+import {
+  institutionEnterpriseDataEn,
+  institutionTabDataEn,
+} from "@/data/en/solutions";
 import React, { useState } from "react";
 import { Col, Image, Row } from "react-bootstrap";
 
-const Institution2 = () => {
+const Institution2 = ({ lan = "vi" }) => {
   const [current, setCurrent] = useState("p-tab-2");
-
+  const myInstitutionTabData =
+    lan === "vi" ? institutionTabData : institutionTabDataEn;
+  const myInstitutionEnterpriseData =
+    lan === "vi" ? institutionEnterpriseData : institutionEnterpriseDataEn;
   return (
     <section className="process-one">
       <div className="project-tab">
@@ -15,7 +22,7 @@ const Institution2 = () => {
           <div className="tab-btns-box">
             <div className="tabs-header">
               <ul className="product-tab-btns clearfix">
-                {institutionTabData.tabButton.map(
+                {myInstitutionTabData.tabButton.map(
                   ({ id, name, tab, href, count }) => (
                     <li
                       key={id}
@@ -32,43 +39,47 @@ const Institution2 = () => {
         </div>
       </div>
       <div className="auto-container">
-        {institutionEnterpriseData.map(({ id, image, title, text, lists }) => (
-          <Row key={id}>
-            <Col md={12} lg={6} className="process-one__image__column">
-              <div className="process-one__image animated fadeInLeft">
-                <Image
-                  src={
-                    require(`@/images/resource/solutions/${image}`).default.src
-                  }
-                  alt=""
-                />
-              </div>
-            </Col>
-            <Col md={12} lg={6}>
-              <div className="process-one__content">
-                {title && (
-                  <div className="sec-title">
-                    <h3>{title}</h3>
-                  </div>
-                )}
-                {text && (
-                  <p className="process-one__summery">
-                    <span>{text}</span>
-                  </p>
-                )}
+        {myInstitutionEnterpriseData.map(
+          ({ id, image, title, text, lists }) => (
+            <Row key={id}>
+              <Col md={12} lg={6} className="process-one__image__column">
+                <div className="process-one__image animated fadeInLeft">
+                  <Image
+                    src={
+                      require(`@/images/resource/solutions/${image}`).default
+                        .src
+                    }
+                    alt=""
+                  />
+                </div>
+              </Col>
+              <Col md={12} lg={6}>
+                <div className="process-one__content">
+                  {title && (
+                    <div className="sec-title">
+                      <h3>{title}</h3>
+                    </div>
+                  )}
+                  {text && (
+                    <p
+                      className="process-one__summery"
+                      dangerouslySetInnerHTML={{ __html: text }}
+                    />
+                  )}
 
-                <ul className="list-unstyled process-one__list">
-                  {lists.map((text, i) => (
-                    <li key={i}>
-                      <i className="flaticon-check"></i>
-                      {text}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Col>
-          </Row>
-        ))}
+                  <ul className="list-unstyled process-one__list">
+                    {lists.map((text, i) => (
+                      <li key={i}>
+                        <i className="flaticon-check"></i>
+                        <div dangerouslySetInnerHTML={{ __html: text }} />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+          )
+        )}
       </div>
     </section>
   );
